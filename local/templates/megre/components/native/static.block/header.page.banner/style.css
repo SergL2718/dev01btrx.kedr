@@ -1,0 +1,31 @@
+/*
+ * Изменено: 10 декабря 2021, пятница
+ * Автор: Артамонов Денис <software.engineer@internet.ru>
+ * copyright (c) 2021
+ */
+
+.header-page-banner-wrapper {
+	position : relative;
+}
+
+.header-page-banner-title-wrapper {
+	align-items : center;
+	bottom      : 0;
+	display     : flex;
+	left        : 0;
+	position    : absolute;
+	right       : 0;
+	top         : 0;
+}
+
+.header-page-banner-wrapper img {
+	width : 100%;
+}
+
+.header-page-banner-title {
+	color          : #fff;
+	font-family    : "Cera Regular", "Tahoma", "sans-serif";
+	font-size      : 90px;
+	line-height    : 1;
+	text-transform : uppercase;
+}

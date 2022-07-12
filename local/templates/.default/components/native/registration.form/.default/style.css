@@ -1,0 +1,96 @@
+/*
+ * Copyright (c) 2019 Артамонов Денис
+ * Дата создания: 10/25/19 9:19 PM
+ * Email: artamonov.ceo@gmail.com
+ */
+
+form[name='registration'] {
+    margin: 0 auto;
+    text-align: center;
+    background-color: #f5fde8;
+    padding: 20px;
+    border-radius: 3px;
+}
+
+form[name='registration'] input {
+    margin-bottom: 15px;
+    padding: 12px 12px 10px;
+    font-size: 100%;
+}
+
+form[name='registration'] input::-webkit-input-placeholder {
+    color: #8fbb3c
+}
+
+form[name='registration'] input::-moz-placeholder {
+    color: #8fbb3c
+}
+
+form[name='registration'] input:-ms-input-placeholder {
+    color: #8fbb3c
+}
+
+form[name='registration'] input:-moz-placeholder {
+    color: #8fbb3c
+}
+
+form[name='registration'] .description {
+    margin: 15px 0 30px;
+    text-align: left;
+}
+
+form[name='registration'] button,
+form[name='registration'] a.btn,
+form[name='registration'] button:active,
+form[name='registration'] button:active:hover,
+form[name='registration'] button:focus {
+    padding: 12px 12px 10px;
+    font-size: 100%;
+    border: none;
+    border-radius: 3px;
+    text-transform: uppercase;
+    outline: none;
+    background-color: #8bc34a;
+}
+
+form[name='registration'] .block {
+    background-color: #fff;
+    box-shadow: 0 0 21px #e2efd1;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+form[name='registration'] .content {
+    display: none;
+}
+
+form[name='registration'] .content b {
+    text-decoration: underline;
+}
+
+
+form[name='registration'] .social-services {
+    margin-top: 20px;
+}
+
+form[name='registration'] .social {
+    margin-top: 4px;
+    text-align: right;
+}
+
+@media all and (max-width: 760px) {
+    form[name='registration'] .social {
+        margin-top: 10px;
+        text-align: center;
+    }
+}
+
+form[name='registration'] .social .bx-authform-social > div {
+    display: none;
+}
+
+form[name='registration'] .social .bx-authform-social ul {
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 35px !important;
+}

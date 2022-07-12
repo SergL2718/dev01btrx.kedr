@@ -1,0 +1,11 @@
+.bxr-news-image {
+    text-align: center;
+}
+.bxr-news-image img {
+    max-width: 100%;
+    margin-bottom: 40px
+}
+
+#afbf_tour_fid61 {
+    display: none;
+}

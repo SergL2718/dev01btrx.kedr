@@ -1,0 +1,262 @@
+/*
+ * Изменено: 10 декабря 2021, пятница
+ * Автор: Артамонов Денис <software.engineer@internet.ru>
+ * copyright (c) 2021
+ */
+
+.greeting-wrapper {
+	align-items : center;
+	display     : flex;
+}
+
+.greeting-image {
+	margin-right : 65px;
+}
+
+.greeting-image img {
+	max-width: initial;
+}
+
+.greeting-title {
+	color       : #898989;
+	font-family : "Cera Bold", "Tahoma", "sans-serif";
+	font-size   : 26px;
+	line-height : 1;
+	position    : relative;
+}
+
+.greeting-title:after {
+	background-color : #81b751;
+	content          : "";
+	display          : block;
+	height           : 1px;
+	position         : absolute;
+	top              : 12px;
+	width            : 100%;
+}
+
+.greeting-title span {
+	background-color : #fff;
+	padding-right    : 30px;
+	position         : relative;
+	z-index          : 1;
+}
+
+.greeting-content p {
+	font-size     : 18px;
+	line-height   : 1.7;
+	margin-bottom : 20px;
+	padding-right : 100px;
+}
+
+.greeting-content p:last-child {
+	margin-bottom : 0;
+	position      : relative;
+}
+
+.greeting-content p:last-child:after {
+	background-color : #81b751;
+	bottom           : 11px;
+	content          : "";
+	display          : block;
+	height           : 1px;
+	position         : absolute;
+	width            : 100%;
+}
+
+.greeting-content p:last-child span {
+	background-color : #fff;
+	padding-right    : 30px;
+	position         : relative;
+	z-index          : 1;
+}
+
+.chronology-item {
+	align-items     : flex-start;
+	display         : flex;
+	justify-content : space-between;
+}
+
+.chronology-year {
+	color          : #81b751;
+	font-family    : "Cera Bold", "Tahoma", "sans-serif";
+	font-size      : 60px;
+	line-height    : 1;
+	margin-right   : 65px;
+	text-align     : right;
+	text-transform : uppercase;
+}
+
+.chronology-content {
+	max-width : 957px;
+}
+
+.chronology-content img {
+	display: inline-block;
+}
+
+.chronology-content p {
+	font-size     : 18px;
+	margin-bottom : 30px;
+}
+
+.chronology-content p:last-child {
+	margin-bottom : 0;
+}
+
+.chronology-content p b {
+	font-family : "Cera Bold", "Tahoma", "sans-serif";
+}
+
+.chronology-content-arrow-down {
+	margin     : 35px 0;
+	text-align : center;
+}
+
+.articles-wrapper {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+	gap: 30px;
+}
+
+.article-image img {
+	border-radius : 10px;
+}
+
+.article-title {
+	color       : #898989;
+	font-family : "Cera Bold", "Tahoma", "sans-serif";
+	font-size   : 26px;
+	line-height : 1.2;
+	margin      : 20px 0 12px;
+}
+
+.articles-wrapper p {
+	height : 45px;
+	margin : 0;
+}
+
+.article-detail {
+	margin-top : 20px;
+}
+
+.article-detail a {
+	text-decoration : none;
+}
+
+.article-detail span {
+	color          : #81b751;
+	font-family    : "Cera Medium", "Tahoma", "sans-serif";
+	font-size      : 22px;
+	padding-bottom : 5px;
+	position       : relative;
+	text-transform : uppercase;
+}
+
+.article-detail span:after {
+	background    : #81b751;
+	border-radius : 5px;
+	bottom        : 0;
+	content       : "";
+	display       : inline-block;
+	height        : 3px;
+	left          : 0;
+	position      : absolute;
+	width         : 100%;
+}
+
+.greeting-footer p:first-child {
+	color         : #898989;
+	font-family   : "Cera Bold", "Tahoma", "sans-serif";
+	font-size     : 26px;
+	line-height   : 1.4;
+	margin-bottom : 40px;
+	max-width     : 1045px;
+}
+
+.greeting-footer p:last-child {
+	font-size     : 18px;
+	margin-bottom : 0;
+	position      : relative;
+}
+
+.greeting-footer p:last-child:after {
+	background-color : #81b751;
+	bottom           : 11px;
+	content          : "";
+	display          : block;
+	height           : 1px;
+	position         : absolute;
+	width            : 100%;
+}
+
+.greeting-footer p:last-child span {
+	background-color : #fff;
+	padding-right    : 30px;
+	position         : relative;
+	z-index          : 1;
+}
+
+@media (max-width: 999px) {
+	.greeting-wrapper {
+		flex-direction: column;
+	}
+	.greeting-image {
+		margin: 0 0 30px;
+	}
+}
+
+@media (max-width: 767px) {
+
+	.header-page-banner-wrapper {
+		display: none;
+	}
+
+	.greeting-content p {
+		padding: 0;
+		font-size: 14px;
+	}
+
+	.chronology-item {
+		flex-direction: column;
+	}
+
+	.chronology-year {
+		margin: 0 0 15px;
+		font-size: 46px;
+	}
+
+	.chronology-content p {
+		margin-bottom: 25px;
+		font-size: 14px;
+	}
+
+	.chronology-content-arrow-down {
+		margin: 25px 0;
+	}
+
+	.chronology-content-arrow-down img {
+		width: 24px;
+	}
+
+	.articles-wrapper {
+		gap: 40px;
+	}
+
+	.article-title {
+		font-size: 22px;
+	}
+
+	.articles-wrapper p {
+		height: auto;
+		font-size: 14px;
+	}
+
+	.article-image img {
+		width: 100%;
+	}
+
+	.greeting-footer p:first-child {
+		font-size: 18px;
+	}
+}

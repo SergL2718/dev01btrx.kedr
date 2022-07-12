@@ -1,0 +1,87 @@
+/*
+ * Изменено: 13 сентября 2021, понедельник
+ * Автор: Артамонов Денис <software.engineer@internet.ru>
+ * copyright (c) 2021
+ */
+
+.grid {
+}
+
+.grid .bx_content_section {
+	margin-bottom : 15px;
+}
+
+.grid .bx_sidebar {
+	margin-bottom : 15px;
+}
+
+/* grid2x1 */
+.grid2x1 {
+}
+
+.grid2x1 .bx_content_section {
+	float         : left;
+	margin-bottom : 15px;
+	width         : 66%;
+}
+
+.grid2x1 .bx_sidebar {
+	-moz-box-sizing    : border-box;
+	-webkit-box-sizing : border-box;
+	box-sizing         : border-box;
+	float              : right;
+	margin-bottom      : 15px;
+	padding-left       : 5%;
+	width              : 33%;
+}
+
+@media (max-width : 960px) {
+	.grid2x1 .bx_sidebar {
+		padding-left : 4%;
+	}
+}
+
+@media (max-width : 640px) {
+	.grid2x1 .bx_content_section,
+	.grid2x1 .bx_sidebar {
+		float : none;
+		width : 100%;
+	}
+
+	.grid2x1 .bx_sidebar {
+		padding-left : 3%;
+	}
+}
+
+@media (max-width : 479px) {
+	.grid2x1 .bx_sidebar {
+		padding-left : 1%;
+	}
+
+}
+
+.catalog-block-header {
+	border-bottom : 2px solid #d9dee6;
+	color         : #000;
+	font-size     : 14px;
+	font-weight   : bold;
+	margin        : 5px 0;
+	padding       : 5px 15px;
+	text-align    : left;
+}
+
+body.bx-theme-blue .catalog-block-header {
+	border-color : #006cc0;
+}
+
+body.bx-theme-green .catalog-block-header {
+	border-color : #63aa28;
+}
+
+body.bx-theme-red .catalog-block-header {
+	border-color : #da3737;
+}
+
+body.bx-theme-yellow .catalog-block-header {
+	border-color : #f4b236;
+}

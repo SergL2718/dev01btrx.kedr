@@ -1,0 +1,7 @@
+/*
+ * Изменено: 24 January 2022, Monday
+ * Автор: Артамонов Денис <artamonov.d.i@yandex.com>
+ * copyright (c) 2022
+ */
+
+.list-pagination-wrapper{text-align:right}.list-pagination-container{display:inline-block}.list-pagination-container ul{color:#898989;font-family:"Cera Medium","Tahoma","sans-serif";font-size:16px;line-height:1;list-style-type:none;margin:0;padding:0}.list-pagination-container li{float:left;margin-right:5px}.list-pagination-container li:last-child{margin-right:0}.list-pagination-container a{color:#898989;font-family:"Cera Medium","Tahoma","sans-serif";padding:3px 5px;text-decoration:none}.list-pagination-container .list-pagination-active span,.list-pagination-container a:hover{color:#81b751}.list-pagination-container .list-pagination-active span{padding:3px 5px}.list-pagination-container .list-pagination-pag-next i,.list-pagination-container .list-pagination-pag-prev i{opacity:.5}.list-pagination-container .list-pagination-pag-next a>span>i,.list-pagination-container .list-pagination-pag-prev a>span>i{opacity:1}

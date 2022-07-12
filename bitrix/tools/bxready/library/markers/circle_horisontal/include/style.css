@@ -1,0 +1,63 @@
+.bxr-circle-marker-horisontal{
+    position: absolute;
+    height: 50px;
+    top: 15px;
+    left: 10px;
+    max-width: 150px;
+    z-index: 990;
+}
+
+.bxr-circle-marker-horisontal .bxr-marker-new
+,.bxr-circle-marker-horisontal .bxr-marker-sale
+,.bxr-circle-marker-horisontal .bxr-marker-rec
+,.bxr-circle-marker-horisontal .bxr-marker-discount
+,.bxr-circle-marker-horisontal .bxr-marker-hit{
+    border: 2px solid #0BA72A;
+    border-radius: 50%;
+    display: block;
+    width: 52px;
+    height: 52px;
+    margin-right: -10px;
+    margin-bottom: -10px;
+    background: #0BA72A;
+    float: left;
+}
+
+.bxr-circle-marker-horisontal .bxr-marker-hit{
+    background: #FCBD00;
+    border-color: #FCBD00;
+}
+
+.bxr-circle-marker-horisontal .bxr-marker-sale
+,.bxr-circle-marker-horisontal .bxr-marker-discount{
+    background: #EA1100;
+    border-color: #EA1100;
+}
+
+.bxr-circle-marker-horisontal .bxr-marker-new{
+    background: #0F7EDA;
+    border-color: #0F7EDA;
+}
+
+.bxr-circle-marker-horisontal i{
+    display: block;
+    width: 48px;
+    height: 48px;
+    line-height: 44px;
+    border: 2px solid #FFF;
+    border-radius: 50%;
+    text-align: center;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: normal;
+    transform: none;
+}
+
+@media (max-width: 992px) {
+    .bxr-ecommerce-v2-list .bxr-circle-marker-horisontal,
+    .bxr-ecommerce-v1-list .bxr-circle-marker-horisontal{
+        bottom: 15px;
+        top: inherit;
+    }
+}

@@ -1,0 +1,13 @@
+<!--
+  - Изменено: 29 December 2021, Wednesday
+  - Автор: Артамонов Денис <artamonov.d.i@yandex.com>
+  - copyright (c) 2022
+  -->
+
+<svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M18.417 3.25H7.58366C6.38704 3.25 5.41699 4.22005 5.41699 5.41667V20.5833C5.41699 21.78 6.38704 22.75 7.58366 22.75H18.417C19.6136 22.75 20.5837 21.78 20.5837 20.5833V5.41667C20.5837 4.22005 19.6136 3.25 18.417 3.25Z"
+          stroke="#79BBE3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M9.75 7.58334H16.25" stroke="#79BBE3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M9.75 11.9167H16.25" stroke="#79BBE3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M9.75 16.25H14.0833" stroke="#79BBE3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

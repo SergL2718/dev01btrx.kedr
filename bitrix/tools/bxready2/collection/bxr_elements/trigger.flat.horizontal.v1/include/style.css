@@ -1,0 +1,32 @@
+.bxr-trigger-v1{
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.bxr-trigger-v1 .bxr-element-container{
+    display: block;
+}
+
+.bxr-trigger-v1 .bxr-element-image{
+    max-width: 30%;
+    float: left;
+    padding: 0;
+    margin: 0;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+
+.bxr-trigger-v1 .bxr-element-image .fa{
+    font-size: 40px;
+    max-width: 30%;
+}
+
+.bxr-trigger-v1 .bxr-element-name{
+    margin-bottom: 10px;
+    line-height: 20px;    
+}
+
+.bxr-trigger-v1 .bxr-element-image img{
+    max-width: 100%;
+}

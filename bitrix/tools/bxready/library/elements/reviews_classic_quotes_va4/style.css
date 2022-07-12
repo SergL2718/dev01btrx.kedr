@@ -1,0 +1,44 @@
+.reviews_classic_quotes_va4 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    margin-bottom: 25px;
+}
+
+.reviews_classic_quotes_va4 .reviews_text {
+    background-color: #f3f6f9;
+    padding: 18px 22px 18px 40px;
+    border: 1px solid #f3f3f3;
+    position: relative;
+    margin-bottom: 18px;
+}
+
+.reviews_classic_quotes_va4 .quote {
+    background-image: url('/bitrix/tools/bxready/library/elements/reviews_classic_quotes_va4/img/quote.png');
+    content: ''; 
+    position: absolute;
+    width: 16px;
+    height: 12px;
+    top: 16px;
+    left: 16px;
+}
+
+
+
+.reviews_classic_quotes_va4 .reviews_text::before, .reviews_classic_quotes_va4 .reviews_text::after {
+    content: ''; 
+    position: absolute;
+    left: 20px; bottom: -14px;
+    border: 7px solid transparent;
+    border-top: 7px solid #f3f3f3;
+    border-right: 7px solid #f3f3f3;
+}
+
+.reviews_classic_quotes_va4 .reviews_text::after {
+    border-top: 7px solid #f3f6f9;
+    border-right: 7px solid #f3f6f9;
+    bottom: -13px; 
+}
+
+.reviews_classic_quotes_va4 .reviews_author {
+    font-weight: bold; 
+}

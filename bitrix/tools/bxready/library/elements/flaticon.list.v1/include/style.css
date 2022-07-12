@@ -1,0 +1,33 @@
+.bxr-flaticon-list-v1{
+    display: table;
+    font-size: 13px;
+    padding: 20px 0;
+}
+
+.bxr-flaticon-list-v1 .bxr-element-container{
+    display: block;
+}
+
+.bxr-flaticon-list-v1 .bxr-element-image{
+    display: table-cell;
+    max-width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    vertical-align: middle;
+}
+
+.bxr-flaticon-list-v1 .bxr-element-image img{
+    margin: 0 10px;
+}
+
+.bxr-flaticon-list-v1 .bxr-element-description{
+    display: table-cell;
+    text-align: left;
+    vertical-align: middle;
+    padding: 0 10px;
+}
+
+.bxr-flaticon-list-v1 .bxr-element-image img{
+    max-width: 100%;
+}

@@ -1,0 +1,18 @@
+/*
+ * Изменено: 24 января 2022, понедельник
+ * Автор: Артамонов Денис <artamonov.d.i@yandex.com>
+ * copyright (c) 2022
+ */
+
+a.search-page-params {
+    border-bottom: 1px dashed blue;
+    text-decoration: none;
+}
+
+div.search-page-params {
+    margin-top: 6px;
+}
+
+.search-item-rate {
+    font-size: 11px;
+}

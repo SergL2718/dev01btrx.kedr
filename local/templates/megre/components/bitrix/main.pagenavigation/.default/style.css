@@ -1,0 +1,111 @@
+/*
+ * Изменено: 17 December 2021, Friday
+ * Автор: Артамонов Денис <artamonov.d.i@yandex.com>
+ * copyright (c) 2022
+ */
+
+.list-pagination-wrapper {
+	text-align : right;
+}
+
+.list-pagination-container {
+	display : inline-block;
+}
+
+.list-pagination-container ul {
+	color           : #898989;
+	font-size       : 16px;
+	line-height     : 1;
+	list-style-type : none;
+	margin          : 0;
+	padding         : 0;
+	display: flex;
+	align-items: center;
+}
+
+.list-pagination-container li {
+	float        : left;
+	margin-right : 5px;
+}
+
+.list-pagination-container li:last-child {
+	margin-right : 0;
+}
+
+.list-pagination-container a {
+	color           : #898989;
+	padding         : 3px 5px;
+	text-decoration : none;
+}
+
+.list-pagination-container a:hover,
+.list-pagination-container .list-pagination-active span {
+	color : #81b751;
+}
+
+.list-pagination-container .list-pagination-active span {
+	padding : 3px 5px;
+}
+
+.list-pagination-container .list-pagination-pag-prev i,
+.list-pagination-container .list-pagination-pag-next i {
+	opacity : .5;
+}
+
+.list-pagination-container .list-pagination-pag-prev a > span > i,
+.list-pagination-container .list-pagination-pag-next a > span > i {
+	opacity : 1;
+}
+
+@media (max-width: 767px) {
+	.list-pagination-wrapper {
+		text-align: center;
+	}
+	.list-pagination-wrapper i.pagination-arrow-left, .list-pagination-wrapper i.pagination-arrow-right {
+		width: 10px;
+		height: 13px;
+		background-repeat: no-repeat;
+	}
+	.list-pagination-container .list-pagination-pag-prev span, .list-pagination-container .list-pagination-pag-next span {
+		width: 36px;
+		height: 36px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 5px;
+		border: 1px solid #B19E86;
+	}
+	.list-pagination-container .list-pagination-pag-prev i, .list-pagination-container .list-pagination-pag-next i {
+		opacity: 1;
+	}
+	.list-pagination-container .list-pagination-pag-prev a > span, .list-pagination-container .list-pagination-pag-next a > span {
+		width: 36px;
+		height: 36px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 5px;
+		background-color: #CBC4BB;
+		border: none;
+	}
+
+	.list-pagination-container .list-pagination-pag-prev a > span > i, .list-pagination-container .list-pagination-pag-next a > span > i {
+		filter: brightness(0) invert(1);
+	}
+
+	.list-pagination-pag-prev {
+		margin-right: 15px!important;
+	}
+	.list-pagination-pag-next {
+		margin-left: 10px;
+	}
+	.list-pagination-container a {
+		display: block;
+		font-weight: 700;
+	}
+
+	.list-pagination-container .list-pagination-active span {
+		padding: 10px;
+		font-weight: 700;
+	}
+}

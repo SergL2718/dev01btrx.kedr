@@ -1,0 +1,25 @@
+.bxr-element-video-card-mej-list {
+    margin-bottom: 20px;
+}
+
+.bxr-element-video-card-mej-list.element-video-card-description
+,.bxr-element-video-card-mej-list .bxr-font-color element-video-card-titl{
+    display: block;
+}
+
+.bxr-element-video-card-mej-list .bxr-element-video-card-mej-e {
+    margin-bottom: 4px;
+}
+
+.bxr-element-video-card-mej-list .element-video-card-mej-content {
+    font-size: 13px;
+}
+
+.bxr-element-video-card-mej-list .element-video-card-mej-content p {
+    margin-bottom: 5px;
+    max-height: 2.6em;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    color: #181818;
+    font-weight: bold;
+}

@@ -1,0 +1,18 @@
+<?
+/**
+ * @author Артамонов Денис <artamonov.ceo@gmail.com>
+ * @updated 28.05.2020, 10:02
+ * @copyright 2011-2020
+ */
+
+$MESS["SB_LINE_ELEMENT_COUNT"] = "Кількість елементів, що виводяться в одному рядку";
+$MESS["SB_TPL_THEME_BLUE"] = "синя (тема за замовчуванням)";
+$MESS["SB_TPL_THEME_GREEN"] = "зелена";
+$MESS["SB_TPL_THEME_RED"] = "червона";
+$MESS["SB_TPL_THEME_WOOD"] = "дерево";
+$MESS["SB_TPL_THEME_YELLOW"] = "жовта";
+$MESS["SB_TPL_TEMPLATE_THEME"] = "Колірна тема";
+$MESS["SB_TPL_THEME_SITE"] = "Брати тему з налаштувань сайту (для вирішення bitrix.eshop)";
+$MESS["LINE_ELEMENT_COUNT_TIP"] = "Кількість елементів, що виводяться в рядку може бути від 1 до 5";
+$MESS["SB_TPL_THEME_BLACK"] = "темна";
+?>

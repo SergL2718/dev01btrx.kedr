@@ -1,0 +1,1 @@
+<?require($_SERVER['DOCUMENT_ROOT'].'/bitrix/modules/denisoft.youtube/tools/getyoutubevideoinfo.php');?>

@@ -1,0 +1,51 @@
+.bxr-file-st-v1 {
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.bxr-file-st-v1 a p {
+    position: relative;
+}
+
+.bxr-file-st-v1 a span.bxr-file-ico{
+    display: block;
+    background: url(file-icon.jpg) no-repeat;
+    width: 38px;
+    height: 50px;
+    position: relative;
+    margin-right: 15px;
+    float: left;
+}
+
+.bxr-file-st-v1 a span.bxr-file-ico:after{
+    content: "file";
+    display: block;
+    position: absolute;
+    bottom: -1px;
+    padding-bottom: 1px;
+    background: #555;
+    width: 100%;
+    color: #FFF;
+    text-align: center;
+    font-size: 12px;
+}
+
+
+.bxr-file-st-v1 a span.bxr-file-ico-rar:after{content: "rar";}
+.bxr-file-st-v1 a span.bxr-file-ico-pdf:after{content: "pdf";}
+.bxr-file-st-v1 a span.bxr-file-ico-doc:after{content: "doc";}
+.bxr-file-st-v1 a span.bxr-file-ico-docx:after{content: "docx";}
+.bxr-file-st-v1 a span.bxr-file-ico-xls:after{content: "xls";}
+.bxr-file-st-v1 a span.bxr-file-ico-xlsx:after{content: "xlsx";}
+.bxr-file-st-v1 a span.bxr-file-ico-xml:after{content: "xml";}
+.bxr-file-st-v1 a span.bxr-file-ico-zip:after{content: "zip";}
+.bxr-file-st-v1 a span.bxr-file-ico-txt:after{content: "txt";}
+.bxr-file-st-v1 a span.bxr-file-ico-psd:after{content: "psd";}
+.bxr-file-st-v1 a span.bxr-file-ico-ai:after{content: "ai";}
+.bxr-file-st-v1 a span.bxr-file-ico-jpg:after{content: "jpg";}
+.bxr-file-st-v1 a span.bxr-file-ico-gif:after{content: "gif";}
+
+.bxr-file-st-v1 .bxr-file-st-v1-size {
+    color: #888888;
+    font-size: 12px;
+}

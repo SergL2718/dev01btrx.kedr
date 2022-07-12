@@ -1,0 +1,29 @@
+.bxr-trigger-v1{
+    display: inline-block;
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+
+.bxr-trigger-v1 .bxr-element-container{
+    display: inline-block;
+}
+
+.bxr-trigger-v1 .bxr-element-image{
+    max-width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.bxr-trigger-v1 .bxr-element-image .fa{
+    font-size: 70px;
+}
+
+.bxr-trigger-v1 .bxr-element-name{
+    margin-bottom: 10px;
+}
+
+.bxr-trigger-v1 .bxr-element-image img{
+    max-width: 100%;
+}

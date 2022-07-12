@@ -1,0 +1,67 @@
+/*
+ * Изменено: 13 сентября 2021, понедельник
+ * Автор: Артамонов Денис <software.engineer@internet.ru>
+ * copyright (c) 2021
+ */
+
+
+.bx_item_detail_rating {
+	margin-bottom : 10px;
+}
+
+.bx_item_detail_rating td {
+	text-align     : right;
+	vertical-align : middle;
+}
+
+.bx_item_detail_rating .bx_item_rating {
+	text-align : right;
+}
+
+.bx_item_detail_rating .bx_stars_container {
+	background      : #dadada;
+	background-size : 100% 100%;
+	height          : 30px;
+	position        : relative;
+	width           : 68px;
+}
+
+.bx_item_detail_rating .bx_stars_bg {
+	background : url(images/stars.png) no-repeat center;
+	bottom     : 0;
+	left       : 0;
+	position   : absolute;
+	right      : 0;
+	top        : 0;
+	z-index    : 101;
+}
+
+.bx_item_detail_rating .bx_stars_progress {
+	background : #e76110;
+	bottom     : 0;
+	left       : 0;
+	position   : absolute;
+	top        : 0;
+}
+
+.bx_item_detail_rating .bx_stars_rating_votes {
+	color          : #8d8d8d;
+	font-size      : 11px;
+	line-height    : 11px;
+	vertical-align : middle;
+}
+
+/*.bx_item_detail_rating .bx_vam{vertical-align: middle;}*/
+
+@media (max-width : 530px) {
+	.bx-touch .bx_item_detail_rating .bx_stars_container {
+		height : 15px;
+		margin : 4px 0;
+		width  : 34px;
+	}
+
+	.bx_item_detail_rating .bx_stars_rating_votes {
+		font-size   : 7px;
+		line-height : 7px;
+	}
+}

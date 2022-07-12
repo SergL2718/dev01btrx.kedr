@@ -1,0 +1,26 @@
+.bxr-classic-image-v1{
+    display: inline-block;
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+
+.bxr-classic-image-v1 .bxr-element-container{
+    display: inline-block;
+}
+
+.bxr-classic-image-v1 .bxr-element-image{
+    max-width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.bxr-classic-image-v1 .bxr-element-name{
+    margin-bottom: 10px;
+}
+
+.bxr-classic-image-v1 .bxr-element-image img{
+    max-width: 100%;
+    width: 100%;
+}

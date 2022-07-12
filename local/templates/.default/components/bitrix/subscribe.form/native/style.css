@@ -1,0 +1,179 @@
+/*
+ * Изменено: 14 февраля 2022, понедельник
+ * Автор: Артамонов Денис <artamonov.d.i@yandex.com>
+ * copyright (c) 2022
+ */
+
+.subscription__form input:not([type=checkbox]):not([type=radio]),
+.subscription__form textarea,
+.subscription__form select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.subscription__form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 508px;
+    background-image: url('./images/back_mail_main.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    padding: 5px;
+}
+
+.subscription__form__header {
+    margin-top: 80px;
+    text-align: center;
+    line-height: 1.3;
+}
+
+.subscription__form__header div:first-child {
+    font-size: 28px;
+    color: var(--color-green-dark);
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.subscription__form__header div:last-child {
+    font-size: 21px;
+    color: var(--color-green);
+}
+
+.subscription__form__body {
+    text-align: center;
+    margin: 28px 0 21px;
+}
+
+.subscription__form__body input {
+    max-width: 410px;
+    font: inherit;
+    background-color: #f4f4f7;
+    border: 1px solid var(--color-green-dark) !important;
+    border-radius: 0 !important;
+    font-size: 19px !important;
+    text-align: center;
+    padding: 5px !important;
+    margin-bottom: 33px;
+}
+
+.subscription__form__body button {
+    font-size: 19px !important;
+    color: #fff;
+    background-color: var(--color-green);
+    border: none;
+    box-shadow: none;
+    padding: 7px 17px 5px;
+}
+
+.subscription__form__footer {
+    text-align: center;
+    line-height: 1.3;
+    font-size: 15px;
+    color: #979797;
+    max-width: 520px;
+    margin: 0 auto;
+}
+
+.subscription__form__footer a {
+    color: #979797;
+    text-decoration: underline;
+}
+
+.subscription__form__footer a:hover {
+    color: #333;
+}
+
+/* Personal cabinet */
+
+.subscription__form__cabinet .subscription__form {
+    height: 379px;
+}
+
+.subscription__form__cabinet .subscription__form__header {
+    margin-top: 60px;
+}
+
+.subscription__form__cabinet .subscription__form__header div:first-child {
+    font-size: 21px;
+}
+
+.subscription__form__cabinet .subscription__form__header div:last-child {
+    font-size: 16px;
+}
+
+.subscription__form__cabinet .subscription__form__body {
+    margin: 21px 0 15px;
+}
+
+.subscription__form__cabinet .subscription__form__body input {
+    max-width: 306px;
+    font-size: 14px !important;
+    margin-bottom: 24px;
+}
+
+.subscription__form__cabinet .subscription__form__body button {
+    font-size: 14px !important;
+}
+
+.subscription__form__cabinet .subscription__form__footer {
+    line-height: 1.2;
+    font-size: 11px;
+    max-width: 380px;
+}
+
+/* Vertical */
+
+nav + .subscription__form__vertical {
+    margin-top: 30px;
+}
+
+.subscription__form__vertical .subscription__form {
+    height: 360px;
+    background-image: url('./images/back_mail_small.png');
+}
+
+.subscription__form__vertical form {
+    max-width: 250px;
+}
+
+.subscription__form__vertical .subscription__form__header {
+    line-height: 1;
+    margin-top: 0;
+}
+
+.subscription__form__vertical .subscription__form__header div:first-child {
+    font-size: 16px;
+    max-width: 240px;
+    margin: 0 auto 15px;
+}
+
+.subscription__form__vertical .subscription__form__header div:last-child {
+    font-size: 14px;
+    max-width: 210px;
+    margin: 0 auto;
+}
+
+.subscription__form__vertical .subscription__form__body input {
+    font-size: 14px !important;
+    margin-bottom: 10px;
+}
+
+.subscription__form__vertical .subscription__form__body button {
+    font-size: 14px !important;
+}
+
+.subscription__form__vertical .subscription__form__footer {
+    font-size: 10px;
+    max-width: 220px;
+    line-height: 1;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 414px) {
+    .subscription__form__header {
+        margin-top: 0 !important;
+    }
+}

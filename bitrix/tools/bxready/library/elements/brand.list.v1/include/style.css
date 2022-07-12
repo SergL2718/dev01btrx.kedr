@@ -1,0 +1,44 @@
+.bxr-brand-list-v1{
+    display: block;
+    font-size: 13px;
+    margin-bottom: 30px;
+    border: 1px solid #f6f6f6;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #FFF;
+}
+
+.bxr-brand-list-v1 .bxr-element-container{
+    display: block;
+}
+
+.bxr-brand-list-v1 .bxr-element-image{
+    max-width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+    line-height: 50px;
+    min-height: 50px;
+}
+.bxr-brand-list-v1 .bxr-element-image img{
+    max-width: 100%;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    margin: 0 auto;
+    display: inline;
+    opacity: 0.5;
+}
+
+.bxr-brand-list-v1:hover .bxr-element-image img{
+    max-width: 100%;
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    -ms-filter: grayscale(0%);
+    -o-filter: grayscale(0%);
+    filter: grayscale(0%);
+    opacity: 1;
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Изменено: 08 сентября 2021, среда
+  ~ Автор: Артамонов Денис <software.engineer@internet.ru>
+  ~ copyright (c) 2021
+  -->
+
+<browserconfig>
+    <msapplication>
+        <tile>
+            <square150x150logo src="/local/templates/megre/images/favicon/mstile-150x150.png"/>
+            <TileColor>#ffffff</TileColor>
+        </tile>
+    </msapplication>
+</browserconfig>

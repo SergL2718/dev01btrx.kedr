@@ -1,0 +1,22 @@
+.flat_vertical_va1{
+    min-height: 290px;/**/
+    margin-top: 30px;
+}
+
+.flat_vertical_va1 .modern-card-image span{
+    
+}
+
+.flat_vertical_va1 .modern-card-image {
+    margin-top: 13px;
+    background-color: #FFF;
+}
+
+.flat_vertical_va1 .modern-card-name {
+    margin-top: 25px;
+    margin-bottom: 0;
+    font-size: 17px;
+    line-height: 19px;
+    font-weight: 700;
+    min-height: 60px;/**/
+}

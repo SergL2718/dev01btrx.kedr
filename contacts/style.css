@@ -1,0 +1,144 @@
+/*
+ * Изменено: 15 декабря 2021, среда
+ * Автор: Артамонов Денис <software.engineer@internet.ru>
+ * copyright (c) 2021
+ */
+
+.main-contacts {
+	background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='20' ry='20' stroke='%23B19E86FF' stroke-width='5' stroke-dasharray='16%2c 24' stroke-dashoffset='17' stroke-linecap='square'/%3e%3c/svg%3e");
+	border-radius : 20px;
+	padding       : 55px 100px;
+	overflow: hidden;
+}
+
+.main-contacts p:last-child {
+	margin-bottom : 0;
+}
+
+a.main-phone {
+	color           : #6db52e;
+	display         : inline-block;
+	font-size       : 30px;
+	line-height     : 1;
+	padding         : 0 13px 5px 0 !important;
+	position        : relative;
+	text-decoration : none;
+	text-transform  : uppercase;
+	font-weight: 700;
+}
+
+a.main-phone:after {
+	background    : #81b751;
+	border-radius : 5px;
+	bottom        : 0;
+	content       : "";
+	display       : block;
+	height        : 3px;
+	left          : 0;
+	position      : absolute;
+	right         : 0;
+}
+
+.additional-contacts {
+	display       : flex;
+	flex-wrap     : wrap;
+	margin-bottom : 60px;
+	margin-top    : 90px;
+}
+
+.additional-contacts > div {
+	padding-left : 45px;
+	width        : 53%;
+}
+
+.additional-contacts > div:nth-child(2n) {
+	padding-left : 100px;
+	width        : 47%;
+}
+
+.additional-contacts > div:first-child,
+.additional-contacts > div:nth-child(2) {
+	margin-bottom : 50px;
+}
+
+.additional-contacts a[href="tel:89152112646"],
+.additional-contacts a[href="https://yandex.ru/maps/-/CCUuvSVhXC"],
+.additional-contacts a[href="https://megrellc.com"],
+.additional-contacts a[href="tel:89139150270"] {
+	all: unset!important;
+	cursor: pointer;
+	color           : #898989;
+	text-decoration : none;
+}
+
+.additional-contacts a[href="tel:89152112646"]:hover,
+.additional-contacts a[href="https://yandex.ru/maps/-/CCUuvSVhXC"]:hover,
+.additional-contacts a[href="https://megrellc.com"]:hover,
+.additional-contacts a[href="tel:89139150270"]:hover {
+	color: #81b751!important;
+	cursor: pointer!important;
+}
+
+.addition-contact-title {
+	margin-bottom : 10px;
+	position      : relative;
+}
+
+.addition-contact-title i {
+	left     : -45px;
+	position : absolute;
+}
+
+.additional-contacts i.home {
+	height : 23px;
+	width  : 23px;
+}
+
+.additional-contacts i.earth {
+	height : 27px;
+	width  : 27px;
+}
+
+.additional-contacts i.truck {
+	height : 30px;
+	width  : 30px;
+}
+
+.additional-contacts i.pine-cone {
+	height : 30px;
+	width  : 30px;
+}
+
+.static-banner-wrapper[data-code="fullwidth-subscribe-form"] {
+	margin-top : 90px;
+}
+
+@media (max-width: 767px) {
+	.main-contacts {
+		padding: 35px 15px;
+	}
+
+	.additional-contacts {
+		margin: 45px 0;
+		flex-direction: column;
+	}
+
+	.additional-contacts > div {
+		width: 100%!important;
+		padding-left: 45px!important;
+	}
+
+	.additional-contacts > div:not(:last-child) {
+		margin-bottom : 50px;
+	}
+
+	.main-contacts a {
+		padding-right: 0!important;
+	}
+
+	.main-contacts p:last-child {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+}

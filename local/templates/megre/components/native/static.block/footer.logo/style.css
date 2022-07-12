@@ -1,0 +1,44 @@
+/*
+ * Изменено: 30 ноября 2021, вторник
+ * Автор: Артамонов Денис <software.engineer@internet.ru>
+ * copyright (c) 2021
+ */
+
+.footer-logo {
+	display    : flex;
+	margin-top : 10px;
+}
+
+.footer-logo a {
+	border-bottom   : none !important;
+	display         : flex;
+	text-decoration : none;
+}
+
+.footer-logo a:hover {
+	text-decoration : none;
+}
+
+.footer-logo svg {
+	height       : 80px;
+	margin-right : 15px;
+	width        : 80px;
+}
+
+.footer-logo svg path {
+	fill : #fff;
+}
+
+.footer-logo span {
+	color       : #fff;
+	font-size   : 30px;
+	line-height : 1.2;
+	margin-top  : 5px;
+}
+
+@media (max-width: 767px) {
+	.footer-logo {
+		display: flex;
+		justify-content: center;
+	}
+}

@@ -1,0 +1,7 @@
+/*
+ * Изменено: 06 декабря 2021, понедельник
+ * Автор: Артамонов Денис <software.engineer@internet.ru>
+ * copyright (c) 2021
+ */
+
+.sidebar-social-links{display:flex;flex-wrap:wrap;max-width:269px}.sidebar-social-links a{align-items:center;border-bottom:none!important;border-radius:17px;display:inline-flex;height:73px;justify-content:center;text-decoration:none!important;-moz-transition:opacity .17s;-ms-transition:opacity .17s;-o-transition:opacity .17s;-webkit-transition:opacity .17s;transition:opacity .17s;width:73px}.sidebar-social-links a:nth-child(2){margin-bottom:25px;margin-left:25px;margin-right:25px}.sidebar-social-links a:nth-child(5){margin-left:25px;margin-right:25px}.sidebar-social-links a[title=Facebook]{background-color:#4590d6}.sidebar-social-links a[title=Telegram]{background-color:#5dbde7}.sidebar-social-links a[title=YouTube]{background-color:#cd5151}.sidebar-social-links a[title=Вконтакте]{background-color:#6396b6}.sidebar-social-links a[title=Instagram]{background-color:#e187a8}.sidebar-social-links a[title=Одноклассники]{background-color:#f2bf74}.sidebar-social-links a:hover{opacity:.8}

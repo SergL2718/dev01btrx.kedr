@@ -1,0 +1,27 @@
+.bxr-news-short-list-v1{
+    font-size: 13px;
+    margin-bottom: 30px;
+    display: table;
+    width: 100%;
+}
+
+.bxr-news-short-list-v1 .bxr-element-container{
+    display: table-row;
+}
+
+.bxr-news-short-list-v1 .bxr-element-date{
+    display: table-cell;
+    padding-right: 10px;
+    vertical-align: top;
+    width: 90px;
+}
+
+.bxr-news-short-list-v1 .bxr-element-date div{
+    padding: 5px 5px 5px 7px;
+    margin-top: 4px;
+}
+
+.bxr-news-short-list-v1 .bxr-element-name{
+    display: table-cell;
+    vertical-align: top;
+}

@@ -1,0 +1,7 @@
+/*
+ * Изменено: 14 декабря 2021, вторник
+ * Автор: Артамонов Денис <software.engineer@internet.ru>
+ * copyright (c) 2021
+ */
+
+a.main-phone{color:#6db52e;display:inline-block;font-family:"Cera Medium","Tahoma","sans-serif";font-size:30px;line-height:1;padding:0 13px 5px 0!important;position:relative;text-decoration:none;text-transform:uppercase}a.main-phone:after{background:#81b751;border-radius:5px;bottom:0;content:"";display:block;height:3px;left:0;position:absolute;right:0}.additional-contacts{display:flex;flex-wrap:wrap;margin-bottom:60px;margin-top:60px}.additional-contacts>div{padding-left:45px;width:53%}.additional-contacts>div:nth-child(2n){padding-left:100px;width:47%}.additional-contacts>div:first-child,.additional-contacts>div:nth-child(2){margin-bottom:50px}.additional-contacts a[href="https://megrellc.com"],.additional-contacts a[href="https://yandex.ru/maps/-/CCUuvSVhXC"],.additional-contacts a[href="tel:83833638651"],.additional-contacts a[href="tel:89139150270"],.additional-contacts a[href="tel:89152112646"]{color:#898989;font-family:"Cera Light","Tahoma","sans-serif";text-decoration:none}.addition-contact-title{margin-bottom:10px;position:relative}.addition-contact-title i{left:-45px;position:absolute}.additional-contacts i.home{height:23px;width:23px}.additional-contacts i.earth{height:27px;width:27px}.additional-contacts i.pine-cone,.additional-contacts i.truck{height:30px;width:30px}.video-wrapper iframe{height:550px;width:100%}

@@ -1,0 +1,38 @@
+/*
+ * Изменено: 08 декабря 2021, среда
+ * Автор: Артамонов Денис <software.engineer@internet.ru>
+ * copyright (c) 2021
+ */
+
+.breadcrumb-wrapper {
+	margin-bottom: 45px;
+	border-bottom : 1px solid #b19e86;
+	padding       : 13px 0;
+}
+
+.breadcrumb-chains {
+	align-items : center;
+	display     : flex;
+}
+
+.breadcrumb-chain,
+.breadcrumb-chain a {
+	color           : #898989;
+	font-family     : "Cera Light", "Tahoma", "sans-serif";
+	font-size       : 16px;
+	text-decoration : none;
+}
+
+.breadcrumb-chain a:hover {
+	text-decoration : underline;
+}
+
+.breadcrumb-chain,
+.breadcrumb-chain span {
+	margin-left : 5px;
+}
+
+.breadcrumb-chain:first-child,
+.breadcrumb-chain:first-child span {
+	margin-left : 0;
+}

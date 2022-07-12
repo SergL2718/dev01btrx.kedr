@@ -1,0 +1,14 @@
+/*
+ * @author Артамонов Денис <artamonov.ceo@gmail.com>
+ * @updated 28.05.2020, 10:02
+ * @copyright 2011-2020
+ */
+
+.h2-left {
+    margin-left: -10px;
+    font-size: 20px;
+}
+
+.bxr-left-block-element {
+    padding: 0 !important;
+}

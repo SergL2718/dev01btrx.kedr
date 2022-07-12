@@ -1,0 +1,53 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Бестселлеры", 
+		"https://wizart.space/catalog/maslo_sibirskogo_kedra/filter/saleleader-is-c5ebabc6-82cf-4fc4-adea-5056db223a20/apply/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Новинки", 
+		"https://wizart.space/catalog/maslo_sibirskogo_kedra/filter/newproduct-is-c5ebabc6-82cf-4fc4-adea-5056db223a20/apply/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Масла", 
+		"https://wizart.space/catalog/maslo_sibirskogo_kedra/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Питание", 
+		"https://wizart.space/catalog/naturalnoe_pitanie/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Уход", 
+		"https://wizart.space/catalog/prirodnaya_kosmetika/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Дом", 
+		"https://wizart.space/catalog/izdeliya_dlya_doma_s_prirodnymi_napolnitelyami/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Книги", 
+		"https://wizart.space/catalog/knigi_audio_dvd_pechatnaya_produktsiya/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

@@ -1,0 +1,142 @@
+/*
+ * Copyright (c) 2019 Denis Artamonov
+ * Created: 3/28/19 8:56 PM
+ * Author: Denis Artamonov
+ * Email: artamonov.ceo@gmail.com
+ */
+
+form.form {
+    margin-bottom: 50px;
+}
+
+.form__name {
+    color: #3d7341;
+    font-size: 22px;
+    margin: -3px 0 16px;
+    font-weight: bold;
+}
+
+.form__input {
+    width: 550px !important;
+    max-width: 550px !important;
+    border: 2px solid #b0d683 !important;
+    padding-top: 12.5px !important;
+    padding-bottom: 9.5px !important;
+    font-size: 100% !important;
+}
+
+.form__result {
+    margin-top: 30px;
+}
+
+.form__not__found,
+.form__found {
+    display: none;
+}
+
+.form__list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.form__list__item {
+    margin-top: 40px;
+}
+
+.form__list__item i {
+    margin-right: 7px;
+}
+
+.form__list__item span {
+    color: #3d7341;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.form__list__item div {
+    margin-bottom: 5px;
+}
+
+.form__list__item div:last-child {
+    margin-bottom: 0;
+}
+
+.form__list__item__title {
+    color: #3d7341;
+    font-weight: bold;
+    margin-bottom: 15px !important;
+}
+
+.button {
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: #8bc34a;
+    border-color: #8bc34a;
+    color: #fff;
+    padding: 14px 18px 11px;
+    width: 270px;
+    text-align: center;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+@media only screen and (min-width: 1170px) {
+    .form__row {
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+        -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-align-content: space-between;
+        -ms-flex-line-pack: justify;
+        align-content: space-between;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    .form__column {
+        -webkit-order: 0;
+        -ms-flex-order: 0;
+        order: 0;
+        -webkit-flex: 0 1 auto;
+        -ms-flex: 0 1 auto;
+        flex: 0 1 auto;
+        -webkit-align-self: auto;
+        -ms-flex-item-align: auto;
+        align-self: auto;
+    }
+}
+
+@media only screen and (max-width: 1170px) {
+    .form__row {
+        display: block;
+    }
+
+    .form__column {
+        display: block;
+        text-align: center;
+    }
+
+    .form__input {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin-bottom: 15px;
+    }
+
+    .form__result {
+        margin-top: 15px;
+    }
+}

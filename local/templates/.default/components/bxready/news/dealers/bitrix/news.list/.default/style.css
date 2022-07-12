@@ -1,0 +1,56 @@
+.bxr-list .bxr-list-title {
+    border-bottom: 1px dotted #DDD;
+    margin-bottom: 20px;
+}
+
+.bxr-list .bxr-list-title h2 {
+    border-bottom: none;
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.bxr-list .bxr-list-title .bxr-list-title-link {
+    position: absolute;
+    right: 10px;
+    top: 20px;
+}
+
+.bxr-classic-image-v2 {
+    width: 100%;
+    margin-bottom: 30px;
+    display: table;
+}
+.bxr-classic-image-v2 .bxr-element-image {
+    width: 220px;
+    text-align: center;
+    border: 1px solid #f6f6f6;
+    float: left;
+    margin-right: 20px;
+    display: table-cell;
+}
+
+.bxr-classic-image-v2 .bxr-element-content {
+    display: table-cell;
+}
+
+.bxr-classic-image-v2 .bxr-element-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 0;
+    display: block;
+}
+
+.bxr-classic-image-v2 .bxr-element-description {
+    font-size: 15px;
+    line-height: 18px;
+    color: #808080;
+    padding-top: 10px;
+}
+
+.bxr-classic-image-v2 .bxr-element-action {
+    margin-top: 20px;
+}
+
+.bxr-classic-image-v2 .bxr-element-action .bxr-border-color-button {
+    padding: 5px 30px;
+}

@@ -1,0 +1,240 @@
+/*
+ * Изменено: 10 декабря 2021, пятница
+ * Автор: Артамонов Денис <software.engineer@internet.ru>
+ * copyright (c) 2021
+ */
+
+
+.form-wrapper {
+	font-family : "Cera Regular", "Tahoma", "sans-serif";
+	max-width   : 600px;
+}
+
+.form-message {
+	background-color : #f1fae8;
+	border-radius    : 6px;
+	color            : #81b751;
+	padding          : 20px 20px 19px;
+}
+
+.form-message i {
+	margin-right : 8px;
+}
+
+.form-item-row {
+	align-items     : center;
+	display         : flex;
+	flex-direction  : row;
+	justify-content : flex-start;
+	margin-bottom   : 45px;
+}
+
+.form-item-row:last-child {
+	margin-bottom : 0;
+}
+
+.form-item-label {
+	color        : #898989;
+	font-size    : 16px;
+	line-height  : 1.3;
+	margin-right : 35px;
+	min-width    : 165px;
+}
+
+.form-item-label i {
+	font-style: normal;
+	font-size: 18px;
+	color: #CB8383;
+}
+
+.form-item-input,
+.form-item-input-error {
+	position: relative;
+	align-items : center;
+	display     : flex;
+	width       : 100%;
+}
+
+.form-item-row input.error {
+	border-color: #C58673;
+}
+
+.form-item-row input,
+.form-item-row select,
+.form-item-row textarea {
+	-webkit-appearance : none;
+	border             : 1px solid #b6b6b6;
+	border-radius      : 3px;
+	box-shadow         : none;
+	box-sizing         : border-box;
+	line-height        : 1;
+	outline            : none;
+	padding            : 9.5px 8px 8.5px;
+	width              : 100%;
+}
+
+.form-item-input-error input,
+.form-item-input-error select,
+.form-item-input-error textarea {
+	border-color : #c58673;
+}
+
+.form-item-row textarea {
+	line-height : 1.3;
+	min-height  : 215px;
+	padding     : 6px 8px 8px;
+}
+
+.form-item-row select {
+	color     : #898989;
+	cursor    : pointer;
+	font-size : 14px;
+	padding   : 12.5px 10px 11.5px 20px;
+}
+
+.form-item-row .form-item-type-select {
+	position : relative;
+	width    : 100%;
+}
+
+.form-item-row .form-item-type-select i {
+	color       : #81b751;
+	font-size   : 21px;
+	height      : 8px;
+	line-height : 7px;
+	position    : absolute;
+	right       : 14px;
+	top         : 16px;
+	width       : 13px;
+}
+
+.form-item-row .form-item-phone-country {
+	align-items     : center;
+	border          : 1px solid #b6b6b6;
+	border-radius   : 3px;
+	color           : #898989;
+	cursor          : pointer;
+	display         : flex;
+	font-family     : "Cera Regular", "Tahoma", "sans-serif";
+	font-size       : 16px;
+	justify-content : space-between;
+	line-height     : 1;
+	margin-right    : 25px;
+	padding         : 3px 11px 3px 9px;
+	position        : relative;
+}
+
+.form-item-row .form-item-phone-country #phone_country_code {
+	margin : 0 17px;
+}
+
+.form-item-row .form-item-phone-country i {
+	color       : #81b751;
+	font-size   : 21px;
+	height      : 8px;
+	line-height : 7px;
+	width       : 13px;
+}
+
+.form-item-row .form-item-phone-number {
+	width : calc(100% - 143px);
+}
+
+.form-item-row .form-item-captcha-image {
+	border        : 1px solid #b6b6b6;
+	border-radius : 3px;
+	height        : 40px;
+	margin-right  : 25px;
+	overflow      : hidden;
+	width         : 180px;
+}
+
+.form-item-row .form-item-captcha-image img {
+	height    : 42px;
+	transform : translate(-2px, -2px);
+	width     : 182px;
+	object-fit: cover;
+}
+
+.form-item-row .form-item-captcha-word input {
+	font-weight    : bold;
+	text-align     : center;
+	text-transform : uppercase;
+	width          : 120px;
+}
+
+.form-footer {
+	margin-top : 55px;
+	display: flex;
+	flex-direction: column;
+}
+
+.form-footer .error_text {
+	margin-top: 17px;
+	font-size: 14px;
+	color: #E16A6A;
+}
+
+.form-footer #button-loader,
+.form-footer input[type="submit"] {
+	-webkit-appearance : none;
+	background-color   : #81b751;
+	border             : 0;
+	border-radius      : 5px;
+	box-shadow         : none;
+	color              : #fff;
+	font-size          : 16px;
+	height             : 50px;
+	line-height        : 1;
+	padding            : 5px;
+	text-align         : center;
+	width              : 255px;
+}
+
+.form-footer input[type="submit"]:active {
+	background-color : #81b751;
+	box-shadow       : 0 0 0 6px #dfdfdf;
+	outline          : none;
+}
+
+.form-footer #button-loader {
+	align-items     : center;
+	display         : none;
+	justify-content : center;
+}
+
+.form-footer #button-loader .loader-dots > span:nth-of-type(4n),
+.form-footer #button-loader .loader-dots > span:nth-of-type(4n+1),
+.form-footer #button-loader .loader-dots > span:nth-of-type(4n+2),
+.form-footer #button-loader .loader-dots > span:nth-of-type(4n+3) {
+	background-color : #fff;
+}
+
+@media (max-width: 767px) {
+
+	.form-item-row {
+		margin-bottom: 35px;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.form-item-label {
+		margin: 0 0 13px;
+	}
+
+	.form-footer {
+		margin-top: 45px;
+	}
+
+	.form-footer #button-loader, .form-footer input[type="submit"] {
+		width: 100%;
+	}
+
+	.return-form p {
+		font-size: 14px;
+	}
+
+	.form-footer #button-loader {
+		width: 100%;
+	}
+}

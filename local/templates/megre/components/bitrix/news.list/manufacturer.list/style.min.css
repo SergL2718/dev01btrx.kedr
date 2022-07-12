@@ -1,0 +1,7 @@
+/*
+ * Изменено: 18 сентября 2021, суббота
+ * Автор: Артамонов Денис <software.engineer@internet.ru>
+ * copyright (c) 2021
+ */
+
+@keyframes manufacturerImageScale{0%{-webkit-transform:scale(1.03);transform:scale(1.03)}to{-webkit-transform:scale(1);transform:scale(1)}}@keyframes manufacturerImageScaleHover{0%{-webkit-transform:scale(1);transform:scale(1)}to{-webkit-transform:scale(1.03);transform:scale(1.03)}}.slider-wrapper[data-slider-code=manufacturer-list] .owl-nav .owl-next,.slider-wrapper[data-slider-code=manufacturer-list] .owl-nav .owl-prev{top:98.5px!important}.manufacturer-wrapper a{display:block;text-decoration:none}.manufacturer-image{overflow:hidden;position:relative;border:1px solid #b19e86;border-radius:50%;margin-bottom:20px;padding:10px}.manufacturer-image img{-webkit-animation:manufacturerImageScale .27s;animation:manufacturerImageScale .27s;-webkit-animation-fill-mode:both;animation-fill-mode:both;border-radius:50%}.manufacturer-wrapper:hover .manufacturer-image img{-webkit-animation:manufacturerImageScaleHover .27s;animation:manufacturerImageScaleHover .27s;-webkit-animation-fill-mode:both;animation-fill-mode:both}.manufacturer-full-title{color:#898989;display:block;font-size:16px;text-align:center}.manufacturer-name{display:block}

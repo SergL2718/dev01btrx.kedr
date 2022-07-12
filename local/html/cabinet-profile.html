@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Звенящие кедры</title>
+    <meta name="robots" content="noindex">
+    <meta name="description" content="description">
+    <!--link(rel="apple-touch-icon" sizes="76x76" href="favicon/apple-touch-icon.png")-->
+    <!--link(rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png")-->
+    <!--link(rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png")-->
+    <!--link(rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5")-->
+    <!--link(rel="shortcut icon" href="favicon/favicon.ico")-->
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#017C48">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <div class="header-person">
+            <div class="icon icon-user" data-modal="modal-enter"></div>
+            <div class="icon icon-search"></div>
+            <div class="icon icon-heart"></div>
+            <div class="icon icon-shopping-bag"></div>
+        </div>
+    </div>
+</header>
+<div class="breadcrumbs">
+    <div class="container">
+        <ol class="breadcrumbs-container">
+            <li class="breadcrumbs__item"><a href="/">Главная</a></li>
+            <li class="breadcrumbs__item"><a href="cabinet.html"><span>Личный кабинет</span></a>
+            </li>
+        </ol>
+    </div>
+</div>
+
+
+
+
+
+<section class="cabinet cabinet_inner">
+    <div class="container">
+        <div class="page-title">Личный кабинет</div>
+        <div class="cabinet-list"><a class="cabinet-card" href="cabinet-order.html">
+            <div class="cabinet-card__image"><img src="images/icons/package.svg" alt=""></div>
+            <div class="cabinet-card__title">ЗАКАЗЫ</div>
+        </a><a class="cabinet-card" href="cabinet-bonus.html">
+            <div class="cabinet-card__image"><img src="images/icons/pine-cone-e.png" alt=""></div>
+            <div class="cabinet-card__title">БОНУСЫ</div>
+            <div class="cabinet-card__sub">у вас 569 бонусов</div>
+        </a><a class="cabinet-card active" href="cabinet-profile.html">
+            <div class="cabinet-card__image"><img src="images/icons/profile-filled.svg" alt=""></div>
+            <div class="cabinet-card__title">ЛИЧНЫЕ ДАННЫЕ</div>
+        </a><a class="cabinet-card" href="cabinet-privilege.html">
+            <div class="cabinet-card__image"><img src="images/icons/gift.svg" alt=""></div>
+            <div class="cabinet-card__title">МОИ ПРИВИЛЕГИИ</div>
+        </a></div>
+        <div class="cabinet-container">
+            <div class="page-title"><a class="link-more" href="cabinet.html">НАЗАД</a>ЛИЧНЫЕ ДАННЫЕ</div>
+            <div class="cabinet-profile">
+                <div class="cabinet-profile-form">
+                    <div class="cabinet-profile-row">
+                        <div class="cabinet-profile-row__title">ФИО</div>
+                        <div class="cabinet-profile-row__content">Фамилия Имя Отчество</div>
+                    </div>
+                    <div class="cabinet-profile-row">
+                        <div class="cabinet-profile-row__title">ТЕЛЕФОН</div>
+                        <div class="cabinet-profile-row__content">+7 (900) 000 00 00</div>
+                    </div>
+                    <div class="cabinet-profile-row">
+                        <div class="cabinet-profile-row__title">ЭЛ. ПОЧТА</div>
+                        <div class="cabinet-profile-row__content">pochtamail@gmail.com</div>
+                    </div>
+                    <div class="cabinet-profile-row">
+                        <div class="cabinet-profile-row__title">ГОРОД</div>
+                        <div class="cabinet-profile-row__content">Москва, Московская область</div>
+                    </div>
+                    <div class="cabinet-profile-row">
+                        <div class="cabinet-profile-row__title">ДАТА РОЖДЕНИЯ</div>
+                        <div class="cabinet-profile-row__content">25.05.1990</div>
+                    </div>
+                    <div class="cabinet-profile-row">
+                        <div class="cabinet-profile-row__title">ПАРОЛЬ</div>
+                        <div class="cabinet-profile-row__content">Скрыто</div>
+                    </div>
+                </div>
+                <div class="button button_primary">Редактировать данные</div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <div class="container">footer</div>
+</footer>
+<div class="modal" id="modal-enter">
+    <div class="modal-inner">
+        <div class="modal-container modal-container_m">
+            <div class="modal-header"><span>чтобы продолжить, войдите или зарегистрируйтесь</span>
+                <div class="modal-close" data-modal-close>
+                    <div class="icon icon-close"></div>
+                </div>
+            </div>
+            <div class="modal-body">
+                <div class="input">
+                    <input placeholder="Введите номер телефона или e-mail">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <div class="button button_primary" data-modal="modal-code">Получить код</div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal" id="modal-code">
+    <div class="modal-inner">
+        <div class="modal-container modal-container_m">
+            <div class="modal-header"><span>Введите код ПОДТВЕРЖДЕНИЯ</span>
+                <div class="modal-close" data-modal-close>
+                    <div class="icon icon-close"></div>
+                </div>
+            </div>
+            <div class="modal-body">
+                <div class="modal-text">Мы отправили код подтверждения на e-mail pochta159@gmail.com</div>
+                <div class="input">
+                    <input placeholder="Введите код из SMS или из письма">
+                </div>
+                <div class="modal-recode">
+                    <div class="modal-recode__text">Получить новый код можно через 0:51</div>
+                    <div class="modal-recode__send">Не пришёл код?</div>
+                    <div class="modal-recode__help">
+                        <div class="modal-recode__help-container">
+                            <div class="modal-recode__help-close">Назад
+                                <div class="icon icon-close"></div>
+                            </div>
+                            <div class="modal-recode__help-header">Не пришёл код?</div>
+                            <div class="modal-recode__help-body">Проверьте, что:<br/><br/>
+                                <ul>
+                                    <li>письмо не попало в папку спам;</li>
+                                    <li>вы ввели правильный адрес электронной почты.</li>
+                                </ul>
+                                <br/>Иногда письмо приходит не сразу. Если письма нет 20 минут, попробуйте получить код
+                                еще раз.<br/><br/>
+                                Можно <span class="link" data-modal="modal-enter">войти по номеру телефона</span> или
+                                обратиться за помощью в чат поддержки / по телефону 8-800-350-0270
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <div class="button button_primary">Продолжить</div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/swiper-bundle.min.js"></script>
+<script src="js/modal.js"></script>
+<script src="js/custom-select.js"></script>
+<script src="js/jquery-ui-slider.min.js"></script>
+<script src="js/jquery.ui.touch-punch.min.js"></script>
+<script src="js/components.js"></script>
+</body>
+</html>

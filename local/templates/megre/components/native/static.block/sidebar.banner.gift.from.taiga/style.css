@@ -1,0 +1,91 @@
+/*
+ * Изменено: 09 декабря 2021, четверг
+ * Автор: Артамонов Денис <software.engineer@internet.ru>
+ * copyright (c) 2021
+ */
+
+.static-banner-wrapper[data-code="sidebar-gift-from-taiga"] {
+	position : relative;
+}
+
+.static-banner-wrapper[data-code="sidebar-gift-from-taiga"] .static-banner-background img {
+	border-radius : 12px;
+}
+
+.static-banner-wrapper[data-code="sidebar-gift-from-taiga"] .static-banner-content {
+	bottom    : 0;
+	max-width : 270px;
+	padding   : 25px;
+	position  : absolute;
+	top       : 0;
+}
+
+.static-banner-wrapper[data-code="sidebar-gift-from-taiga"] .static-banner-title {
+	color         : #003e2a;
+	font-size     : 32px;
+	line-height   : 1.3;
+	margin-bottom : 20px;
+	font-weight: 300;
+}
+
+.static-banner-wrapper[data-code="sidebar-gift-from-taiga"] .static-banner-description {
+	color         : #898989;
+	font-size     : 16px;
+	line-height   : 1.3;
+	margin-bottom : 20px;
+}
+
+.static-banner-wrapper[data-code="sidebar-gift-from-taiga"] .static-banner-detail label {
+	color         : #898989;
+	font-size     : 16px;
+	line-height   : 1;
+	margin-bottom : 10px;
+}
+
+.static-banner-wrapper[data-code="sidebar-gift-from-taiga"] .static-banner-detail input {
+	-webkit-appearance : none;
+	background-color   : transparent;
+	border             : 1px solid #b19e86;
+	border-radius      : 3px;
+	box-shadow         : none;
+	line-height        : 1;
+	margin-bottom      : 30px;
+	outline            : none;
+	padding            : 9px 7px;
+	width              : 100%;
+}
+
+.static-banner-wrapper[data-code="sidebar-gift-from-taiga"] .static-banner-detail a {
+	background      : #003e2a;
+	border-radius   : 5px;
+	color           : #fff;
+	display         : block;
+	font-family     : "Cera Regular", "Tahoma", "sans-serif";
+	max-width       : 180px;
+	padding         : 12px;
+	text-align      : center;
+	text-decoration : none;
+}
+
+.static-banner-wrapper[data-code="sidebar-gift-from-taiga"] .loader-dots > span:nth-of-type(4n),
+.static-banner-wrapper[data-code="sidebar-gift-from-taiga"] .loader-dots > span:nth-of-type(4n+1),
+.static-banner-wrapper[data-code="sidebar-gift-from-taiga"] .loader-dots > span:nth-of-type(4n+2),
+.static-banner-wrapper[data-code="sidebar-gift-from-taiga"] .loader-dots > span:nth-of-type(4n+3) {
+	background-color : #fff;
+}
+
+.static-banner-wrapper[data-code="sidebar-gift-from-taiga"] .static-banner-privacy {
+	bottom      : 0;
+	color       : #fff;
+	font-size   : 10px;
+	left        : 0;
+	line-height : 1.3;
+	max-width   : 270px;
+	padding     : 25px;
+	position    : absolute;
+}
+
+.static-banner-wrapper[data-code="sidebar-gift-from-taiga"] .static-banner-privacy a {
+	color : #fff;
+	text-decoration: underline;
+}

@@ -1,0 +1,43 @@
+.bxr-element-video-card-mej-col {
+    margin-bottom: 20px;
+}
+
+.bxr-element-video-card-mej-col .element-video-card-description
+,.bxr-element-video-card-mej-col .bxr-font-color element-video-card-titl{
+    display: block;
+}
+
+.bxr-element-video-card-mej-col .bxr-element-video-card-mej {
+    margin-bottom: 6px;
+}
+
+.bxr-element-video-card-mej-col .element-video-card-mej-content {
+    font-size: 13px;
+}
+
+.bxr-element-video-card-mej-col .element-video-card-mej-content p {
+    margin-bottom: 2px;
+    max-height: 2.6em;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    color: #181818;
+    font-weight: bold;
+}
+
+@media (min-width: 1200px)  {
+    .bxr-element-video-card-mej-col:nth-child(3n+1) {
+        clear: left;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px)  {
+    .bxr-element-video-card-mej-col:nth-child(3n+1) {
+        clear: left;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .bxr-element-video-card-mej-col:nth-child(2n+1) {
+        clear: left;
+    }
+}

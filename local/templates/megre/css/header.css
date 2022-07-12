@@ -1,0 +1,16 @@
+
+.header-person {
+  margin-left: auto;
+  width: max-content;
+  display: flex;
+  gap: 18px;
+}
+.header-person .icon {
+  width: 24px;
+  height: 24px;
+  background-color: #81b751;
+  cursor: pointer;
+}
+.header-person .icon:hover {
+  background-color: #9cca74;
+}

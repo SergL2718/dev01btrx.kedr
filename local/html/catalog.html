@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Звенящие кедры</title>
+    <meta name="robots" content="noindex">
+    <meta name="description" content="description">
+    <!--link(rel="apple-touch-icon" sizes="76x76" href="favicon/apple-touch-icon.png")-->
+    <!--link(rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png")-->
+    <!--link(rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png")-->
+    <!--link(rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5")-->
+    <!--link(rel="shortcut icon" href="favicon/favicon.ico")-->
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#017C48">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="css/style.css?3">
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <div class="header-person">
+            <div class="icon icon-user" data-modal="modal-enter"></div>
+            <div class="icon icon-search"></div>
+            <div class="icon icon-heart"></div>
+            <div class="icon icon-shopping-bag"></div>
+        </div>
+    </div>
+</header>
+<div class="page-banner" style="background-image: url('images/temp/catalog.jpg')">
+    <div class="container">
+        <div class="page-banner__title" style="text-align: right;">Масла</div>
+    </div>
+</div>
+<div class="breadcrumbs">
+    <div class="container">
+        <ol class="breadcrumbs-container">
+            <li class="breadcrumbs__item"><a href="/">Главная</a></li>
+            <li class="breadcrumbs__item"><a href="catalog.html"><span>Все товары</span></a>
+            </li>
+            <li class="breadcrumbs__item"><a href="#"><span>Масла</span></a>
+            </li>
+        </ol>
+    </div>
+</div>
+<div class="catalog">
+    <div class="container">
+        <div class="catalog-inner">
+            <div class="catalog-filter">
+                <div class="catalog-filter__menu">
+                    <div class="catalog-filter__button">ФИЛЬТР <span>+</span></div>
+                    <div class="catalog-filter__sort">
+                        <div class="catalog-filter__sort-button">СОРТИРОВАТЬ
+                            <div class="icon icon-down"></div>
+                        </div>
+                        <div class="catalog-filter__sort-options">
+                            <div class="catalog-filter__sort-option">ПО ПОПУЛЯРНОСТИ</div>
+                            <div class="catalog-filter__sort-option">ПО НОВИНКАМ</div>
+                            <div class="catalog-filter__sort-option">ВОЗРАСТАНИЕ ЦЕНЫ</div>
+                            <div class="catalog-filter__sort-option">УБЫВАНИЕ ЦЕНЫ</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalog-filter__wrapper">
+                    <div class="catalog-filter__close">
+                        <div class="icon icon-cancel"></div>
+                    </div>
+
+
+                    <div class="catalog-filter__card">
+                        <div class="catalog-filter__title">Категории</div>
+                        <div class="catalog-filter__card-content">
+                            <div class="catalog-filter__card-content-inner">
+                                <div class="catalog-filter__row"><a class="catalog-filter__link" href="#">Все товары</a>
+                                </div>
+                                <div class="catalog-filter__row drop">
+                                    <div class="catalog-filter__link">Масла</div>
+                                    <div class="catalog-filter__drop">
+                                        <div class="catalog-filter__drop-wrapper">
+                                            <label class="checkbox">
+                                                <input class="checkbox__input" type="checkbox"/><span
+                                                    class="checkbox__label">Без добавок</span>
+                                            </label>
+                                            <label class="checkbox">
+                                                <input class="checkbox__input" type="checkbox"/><span
+                                                    class="checkbox__label">Обогащённое</span>
+                                            </label>
+                                            <label class="checkbox">
+                                                <input class="checkbox__input" type="checkbox"/><span
+                                                    class="checkbox__label">Эликсиры</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="catalog-filter__row drop">
+                                    <div class="catalog-filter__link">Питание</div>
+                                    <div class="catalog-filter__drop">
+                                        <div class="catalog-filter__drop-wrapper">
+                                            <label class="checkbox">
+                                                <input class="checkbox__input" type="checkbox"/><span
+                                                    class="checkbox__label">Без добавок</span>
+                                            </label>
+                                            <label class="checkbox">
+                                                <input class="checkbox__input" type="checkbox"/><span
+                                                    class="checkbox__label">Обогащённое</span>
+                                            </label>
+                                            <label class="checkbox">
+                                                <input class="checkbox__input" type="checkbox"/><span
+                                                    class="checkbox__label">Эликсиры</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="catalog-filter__row drop">
+                                    <div class="catalog-filter__link">Дом</div>
+                                    <div class="catalog-filter__drop">
+                                        <div class="catalog-filter__drop-wrapper">
+                                            <label class="checkbox">
+                                                <input class="checkbox__input" type="checkbox"/><span
+                                                    class="checkbox__label">Без добавок</span>
+                                            </label>
+                                            <label class="checkbox">
+                                                <input class="checkbox__input" type="checkbox"/><span
+                                                    class="checkbox__label">Обогащённое</span>
+                                            </label>
+                                            <label class="checkbox">
+                                                <input class="checkbox__input" type="checkbox"/><span
+                                                    class="checkbox__label">Эликсиры</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="catalog-filter__row drop">
+                                    <div class="catalog-filter__link">Книги</div>
+                                    <div class="catalog-filter__drop">
+                                        <div class="catalog-filter__drop-wrapper">
+                                            <label class="checkbox">
+                                                <input class="checkbox__input" type="checkbox"/><span
+                                                    class="checkbox__label">Без добавок</span>
+                                            </label>
+                                            <label class="checkbox">
+                                                <input class="checkbox__input" type="checkbox"/><span
+                                                    class="checkbox__label">Обогащённое</span>
+                                            </label>
+                                            <label class="checkbox">
+                                                <input class="checkbox__input" type="checkbox"/><span
+                                                    class="checkbox__label">Эликсиры</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="catalog-filter__row drop">
+                                    <div class="catalog-filter__link">Уход</div>
+                                    <div class="catalog-filter__drop">
+                                        <div class="catalog-filter__drop-wrapper">
+                                            <label class="checkbox">
+                                                <input class="checkbox__input" type="checkbox"/><span
+                                                    class="checkbox__label">Без добавок</span>
+                                            </label>
+                                            <label class="checkbox">
+                                                <input class="checkbox__input" type="checkbox"/><span
+                                                    class="checkbox__label">Обогащённое</span>
+                                            </label>
+                                            <label class="checkbox">
+                                                <input class="checkbox__input" type="checkbox"/><span
+                                                    class="checkbox__label">Эликсиры</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="catalog-filter__row"><a class="catalog-filter__link" href="#">Новинки</a>
+                                </div>
+                                <div class="catalog-filter__row"><a class="catalog-filter__link" href="#">Скидки</a>
+                                </div>
+                                <div class="catalog-filter__row"><a class="catalog-filter__link"
+                                                                    href="#">Бестселлеры</a></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="catalog-filter__card drop active">
+                        <div class="catalog-filter__card-title">ПРОИЗВОДИТЕЛИ</div>
+                        <div class="catalog-filter__card-content" style="display: block;">
+                            <div class="catalog-filter__card-content-inner">
+                                <div class="catalog-filter__row">
+                                    <label class="checkbox">
+                                        <input class="checkbox__input" type="checkbox"/><span class="checkbox__label">ООО “Мегре”</span>
+                                    </label>
+                                </div>
+                                <div class="catalog-filter__row">
+                                    <label class="checkbox">
+                                        <input class="checkbox__input" type="checkbox"/><span class="checkbox__label">Название</span>
+                                    </label>
+                                </div>
+                                <div class="catalog-filter__row">
+                                    <label class="checkbox">
+                                        <input class="checkbox__input" type="checkbox"/><span class="checkbox__label">Название</span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="catalog-filter__card-content-more">Показать всё&nbsp;&nbsp;&nbsp;<b>+</b></div>
+                        </div>
+                    </div>
+                    <div class="catalog-filter__card drop active">
+                        <div class="catalog-filter__card-title">ЦЕНА</div>
+                        <div class="catalog-filter__card-content" style="display: block;">
+                            <div class="catalog-filter__card-content-inner">
+                                <div class="catalog-filter__row">
+                                    <div class="range-slider-container">
+                                        <div class="range-slider-number">
+                                            <div class="range-slider-number-1"><span></span>&nbsp;р.</div>
+                                            <div class="range-slider-number-2"><span></span>&nbsp;р.</div>
+                                        </div>
+                                        <div class="range-slider"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="catalog-filter__reset">
+                        <div class="button button_outline-gray">Сбросить фильтры</div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-title">Масла</div>
+            <div class="catalog-container">
+                <div class="catalog-nav">
+                    <div class="catalog-sorting">
+                        <div class="catalog-sorting__label">Сортировать по:</div>
+                        <div class="custom-select">
+                            <select>
+                                <option>популярности</option>
+                                <option>цене</option>
+                                <option>дате</option>
+                            </select>
+                        </div>
+                    </div>
+                    <ul class="pagination">
+                        <li class="prev disabled"></li>
+                        <li class="current"><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li class="next"></li>
+                    </ul>
+                </div>
+                <div class="catalog-list"><a href="#"><img src="../images/temp/elec.jpg" alt=""></a>
+                    <article id="bx_3966226736_110549" data-id="110549" class="product-preview-wrapper">
+                        <a href="/catalog/kedrovyy_orekh/zhmykh_yadra_kedrovogo_orekha_400_g_doy_pak/">
+                            <div class="product-image">
+                                <img src="//opt-1226437.ssl.1c-bitrix-cdn.ru/upload/resize_cache/iblock/be0/255_255_1/zhm_400.png?163639148374810"
+                                     alt="Жмых ядра кедрового ореха 400 г., дой-пак"
+                                     title="Жмых ядра кедрового ореха 400 г., дой-пак">
+                            </div>
+                            <div class="product-title">Жмых ядра кедрового ореха 400 г., дой-пак</div>
+                            <div class="product-price-wrapper">
+                                <div class="product-current-price">570 руб.</div>
+                                <div class="product-old-price">1570 руб.</div>
+                            </div>
+                            <div class="product-bonuses">+63 зкр на счёт<i class="pine-cone"></i>
+                            </div>
+                        </a>
+                        <div class="product-button-wrapper">
+                            <a class="product-button" data-controller="addToBasket" href="javascript:void(0)">В
+                                корзину</a>
+                        </div>
+                        <div class="product-added-wrapper">
+                            <div>Добавлено</div>
+                            <div>
+                                <a data-controller="changeQuantity" data-direction="reduce" href="javascript:void(0)"><i
+                                        class="fas fa-angle-left"></i></a>
+                                <span>1</span>
+                                <a data-controller="changeQuantity" data-direction="increase" href="javascript:void(0)"><i
+                                        class="fas fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="product-add-to-favorites-button-wrapper">
+                            <a data-controller="addToFavorites" href="javascript:void(0)"><i class="heart"></i><i
+                                    class="heart-filled"></i></a>
+                        </div>
+                        <div class="product-badge-list-wrapper">
+                            <div class="product-badge" data-code="HIT">Бестселлеры</div>
+                        </div>
+                    </article>
+                    <article id="bx_3966226736_8152" data-id="8152" class="product-preview-wrapper">
+                        <a href="/catalog/izdeliya_dlya_doma_s_prirodnymi_napolnitelyami/podushka_iz_kedrovoy_struzhki_50_kh_60/">
+                            <div class="product-image">
+                                <img src="//opt-1226437.ssl.1c-bitrix-cdn.ru/upload/resize_cache/iblock/1ee/255_255_1/podushka.png?163601601266979"
+                                     alt="Подушка из кедровой стружки 50 х 60"
+                                     title="Подушка из кедровой стружки 50 х 60">
+                            </div>
+                            <div class="product-title"> Подушка из кедровой стружки 50 х 60</div>
+                            <div class="product-price-wrapper">
+                                <div class="product-current-price">1 570 руб.</div>
+                            </div>
+                            <div class="product-bonuses"> +173 зкр на счёт<i class="pine-cone"></i>
+                            </div>
+                        </a>
+                        <div class="product-button-wrapper">
+                            <a class="product-button" data-controller="addToBasket" href="javascript:void(0)">В
+                                корзину</a>
+                        </div>
+                        <div class="product-added-wrapper">
+                            <div>Добавлено</div>
+                            <div>
+                                <a data-controller="changeQuantity" data-direction="reduce" href="javascript:void(0)"><i
+                                        class="fas fa-angle-left"></i></a>
+                                <span>1</span>
+                                <a data-controller="changeQuantity" data-direction="increase" href="javascript:void(0)"><i
+                                        class="fas fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="product-add-to-favorites-button-wrapper">
+                            <a data-controller="addToFavorites" href="javascript:void(0)"><i class="heart"></i><i
+                                    class="heart-filled"></i></a>
+                        </div>
+                        <div class="product-badge-list-wrapper">
+                            <div class="product-badge" data-code="HIT">Бестселлеры</div>
+                        </div>
+                    </article>
+                    <article id="bx_3966226736_110549" data-id="110549" class="product-preview-wrapper">
+                        <a href="/catalog/kedrovyy_orekh/zhmykh_yadra_kedrovogo_orekha_400_g_doy_pak/">
+                            <div class="product-image">
+                                <img src="//opt-1226437.ssl.1c-bitrix-cdn.ru/upload/resize_cache/iblock/be0/255_255_1/zhm_400.png?163639148374810"
+                                     alt="Жмых ядра кедрового ореха 400 г., дой-пак"
+                                     title="Жмых ядра кедрового ореха 400 г., дой-пак">
+                            </div>
+                            <div class="product-title">Жмых ядра кедрового ореха 400 г., дой-пак</div>
+                            <div class="product-price-wrapper">
+                                <div class="product-current-price">570 руб.</div>
+                                <div class="product-old-price">5270 руб.</div>
+                            </div>
+                            <div class="product-bonuses">+63 зкр на счёт<i class="pine-cone"></i>
+                            </div>
+                        </a>
+                        <div class="product-button-wrapper">
+                            <a class="product-button" data-controller="addToBasket" href="javascript:void(0)">В
+                                корзину</a>
+                        </div>
+                        <div class="product-added-wrapper">
+                            <div>Добавлено</div>
+                            <div>
+                                <a data-controller="changeQuantity" data-direction="reduce" href="javascript:void(0)"><i
+                                        class="fas fa-angle-left"></i></a>
+                                <span>1</span>
+                                <a data-controller="changeQuantity" data-direction="increase" href="javascript:void(0)"><i
+                                        class="fas fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="product-add-to-favorites-button-wrapper">
+                            <a data-controller="addToFavorites" href="javascript:void(0)"><i class="heart"></i><i
+                                    class="heart-filled"></i></a>
+                        </div>
+                        <div class="product-badge-list-wrapper">
+                            <div class="product-badge" data-code="HIT">Бестселлеры</div>
+                        </div>
+                    </article>
+                    <article id="bx_3966226736_8152" data-id="8152" class="product-preview-wrapper">
+                        <a href="/catalog/izdeliya_dlya_doma_s_prirodnymi_napolnitelyami/podushka_iz_kedrovoy_struzhki_50_kh_60/">
+                            <div class="product-image">
+                                <img src="//opt-1226437.ssl.1c-bitrix-cdn.ru/upload/resize_cache/iblock/1ee/255_255_1/podushka.png?163601601266979"
+                                     alt="Подушка из кедровой стружки 50 х 60"
+                                     title="Подушка из кедровой стружки 50 х 60">
+                            </div>
+                            <div class="product-title"> Подушка из кедровой стружки 50 х 60</div>
+                            <div class="product-price-wrapper">
+                                <div class="product-current-price">1 570 руб.</div>
+                            </div>
+                            <div class="product-bonuses"> +173 зкр на счёт<i class="pine-cone"></i>
+                            </div>
+                        </a>
+                        <div class="product-button-wrapper">
+                            <a class="product-button" data-controller="addToBasket" href="javascript:void(0)">В
+                                корзину</a>
+                        </div>
+                        <div class="product-added-wrapper">
+                            <div>Добавлено</div>
+                            <div>
+                                <a data-controller="changeQuantity" data-direction="reduce" href="javascript:void(0)"><i
+                                        class="fas fa-angle-left"></i></a>
+                                <span>1</span>
+                                <a data-controller="changeQuantity" data-direction="increase" href="javascript:void(0)"><i
+                                        class="fas fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="product-add-to-favorites-button-wrapper">
+                            <a data-controller="addToFavorites" href="javascript:void(0)"><i class="heart"></i><i
+                                    class="heart-filled"></i></a>
+                        </div>
+                        <div class="product-badge-list-wrapper">
+                            <div class="product-badge" data-code="HIT">Бестселлеры</div>
+                        </div>
+                    </article>
+                    <article id="bx_3966226736_110549" data-id="110549" class="product-preview-wrapper">
+                        <a href="/catalog/kedrovyy_orekh/zhmykh_yadra_kedrovogo_orekha_400_g_doy_pak/">
+                            <div class="product-image">
+                                <img src="//opt-1226437.ssl.1c-bitrix-cdn.ru/upload/resize_cache/iblock/be0/255_255_1/zhm_400.png?163639148374810"
+                                     alt="Жмых ядра кедрового ореха 400 г., дой-пак"
+                                     title="Жмых ядра кедрового ореха 400 г., дой-пак">
+                            </div>
+                            <div class="product-title">Жмых ядра кедрового ореха 400 г., дой-пак</div>
+                            <div class="product-price-wrapper">
+                                <div class="product-current-price">570 руб.</div>
+                            </div>
+                            <div class="product-bonuses">+63 зкр на счёт<i class="pine-cone"></i>
+                            </div>
+                        </a>
+                        <div class="product-button-wrapper">
+                            <a class="product-button" data-controller="addToBasket" href="javascript:void(0)">В
+                                корзину</a>
+                        </div>
+                        <div class="product-added-wrapper">
+                            <div>Добавлено</div>
+                            <div>
+                                <a data-controller="changeQuantity" data-direction="reduce" href="javascript:void(0)"><i
+                                        class="fas fa-angle-left"></i></a>
+                                <span>1</span>
+                                <a data-controller="changeQuantity" data-direction="increase" href="javascript:void(0)"><i
+                                        class="fas fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="product-add-to-favorites-button-wrapper">
+                            <a data-controller="addToFavorites" href="javascript:void(0)"><i class="heart"></i><i
+                                    class="heart-filled"></i></a>
+                        </div>
+                        <div class="product-badge-list-wrapper">
+                            <div class="product-badge" data-code="HIT">Бестселлеры</div>
+                        </div>
+                    </article>
+                    <article id="bx_3966226736_8152" data-id="8152" class="product-preview-wrapper">
+                        <a href="/catalog/izdeliya_dlya_doma_s_prirodnymi_napolnitelyami/podushka_iz_kedrovoy_struzhki_50_kh_60/">
+                            <div class="product-image">
+                                <img src="//opt-1226437.ssl.1c-bitrix-cdn.ru/upload/resize_cache/iblock/1ee/255_255_1/podushka.png?163601601266979"
+                                     alt="Подушка из кедровой стружки 50 х 60"
+                                     title="Подушка из кедровой стружки 50 х 60">
+                            </div>
+                            <div class="product-title"> Подушка из кедровой стружки 50 х 60</div>
+                            <div class="product-price-wrapper">
+                                <div class="product-current-price">1 570 руб.</div>
+                            </div>
+                            <div class="product-bonuses"> +173 зкр на счёт<i class="pine-cone"></i>
+                            </div>
+                        </a>
+                        <div class="product-button-wrapper">
+                            <a class="product-button" data-controller="addToBasket" href="javascript:void(0)">В
+                                корзину</a>
+                        </div>
+                        <div class="product-added-wrapper">
+                            <div>Добавлено</div>
+                            <div>
+                                <a data-controller="changeQuantity" data-direction="reduce" href="javascript:void(0)"><i
+                                        class="fas fa-angle-left"></i></a>
+                                <span>1</span>
+                                <a data-controller="changeQuantity" data-direction="increase" href="javascript:void(0)"><i
+                                        class="fas fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="product-add-to-favorites-button-wrapper">
+                            <a data-controller="addToFavorites" href="javascript:void(0)"><i class="heart"></i><i
+                                    class="heart-filled"></i></a>
+                        </div>
+                        <div class="product-badge-list-wrapper">
+                            <div class="product-badge" data-code="HIT">Бестселлеры</div>
+                        </div>
+                    </article>
+                </div>
+                <div class="catalog-list-more">
+                    <div class="link-more">ПОКАЗАТЬ БОЛЬШЕ</div>
+                </div>
+                <div class="catalog-nav s-none">
+                    <div class="catalog-sorting">
+                        <div class="catalog-sorting__label">Сортировать по:</div>
+                        <div class="custom-select">
+                            <select>
+                                <option>популярности</option>
+                                <option>цене</option>
+                                <option>дате</option>
+                            </select>
+                        </div>
+                    </div>
+                    <ul class="pagination">
+                        <li class="prev disabled"></li>
+                        <li class="current"><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li class="next"></li>
+                    </ul>
+                </div>
+                <div class="catalog-about">
+                    <div class="catalog-about__content collapsed">
+                        <h2>КЕДРОВОЕ МАСЛО</h2>
+                        <p>
+                            Из самого сердца тайги. Масло кедра, приготовленное по технологии, которая бережно
+                            сохранилась в таёжных деревнях, той самой, упоминаемой в старинных книгах: делается вручную
+                            на деревянных прессах. Кедровое масло наши прадеды называли средством от ста болезней,
+                            сегодня его лечебные свойства признаёт не только народная, но и современная медицина, очень
+                            высоко ценит мировая косметология и кулинария.Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Iste numquam quia vel? Aut culpa dolore ipsa officiis omnis, repellendus
+                            totam vel voluptatibus? Dolor natus non, odit perspiciatis quidem reiciendis rem!</p>
+                    </div>
+                    <div class="catalog-about__show-more">Показать всё&nbsp;&nbsp;&nbsp;+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="footer">
+    <div class="container">footer</div>
+</footer>
+
+
+<div class="modal" id="modal-enter">
+    <div class="modal-inner">
+        <div class="modal-container modal-container_m">
+            <div class="modal-header"><span>чтобы продолжить, войдите или зарегистрируйтесь</span>
+                <div class="modal-close" data-modal-close>
+                    <div class="icon icon-close"></div>
+                </div>
+            </div>
+            <div class="modal-body">
+                <div class="input">
+                    <input placeholder="Введите номер телефона или e-mail">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <div class="button button_primary" data-modal="modal-code">Получить код</div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal" id="modal-code">
+    <div class="modal-inner">
+        <div class="modal-container modal-container_m">
+            <div class="modal-header"><span>Введите код ПОДТВЕРЖДЕНИЯ</span>
+                <div class="modal-close" data-modal-close>
+                    <div class="icon icon-close"></div>
+                </div>
+            </div>
+            <div class="modal-body">
+                <div class="modal-text">Мы отправили код подтверждения на e-mail pochta159@gmail.com</div>
+                <div class="input">
+                    <input placeholder="Введите код из SMS или из письма">
+                </div>
+                <div class="modal-recode">
+                    <div class="modal-recode__text">Получить новый код можно через 0:51</div>
+                    <div class="modal-recode__send">Не пришёл код?</div>
+                    <div class="modal-recode__help">
+                        <div class="modal-recode__help-container">
+                            <div class="modal-recode__help-close">Назад
+                                <div class="icon icon-close"></div>
+                            </div>
+                            <div class="modal-recode__help-header">Не пришёл код?</div>
+                            <div class="modal-recode__help-body">Проверьте, что:<br/><br/>
+                                <ul>
+                                    <li>письмо не попало в папку спам;</li>
+                                    <li>вы ввели правильный адрес электронной почты.</li>
+                                </ul>
+                                <br/>Иногда письмо приходит не сразу. Если письма нет 20 минут, попробуйте получить код
+                                еще раз.<br/><br/>
+                                Можно <span class="link" data-modal="modal-enter">войти по номеру телефона</span> или
+                                обратиться за помощью в чат поддержки / по телефону 8-800-350-0270
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <div class="button button_primary">Продолжить</div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/swiper-bundle.min.js"></script>
+<script src="js/modal.js"></script>
+<script src="js/custom-select.js"></script>
+<script src="js/jquery-ui-slider.min.js"></script>
+<script src="js/jquery.ui.touch-punch.min.js"></script>
+<script src="js/components.js"></script>
+</body>
+</html>

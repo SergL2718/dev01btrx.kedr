@@ -1,0 +1,259 @@
+/*
+ * Изменено: 09 декабря 2021, четверг
+ * Автор: Артамонов Денис <software.engineer@internet.ru>
+ * copyright (c) 2021
+ */
+
+/* Базовые стили слоя затемнения и модального окна  */
+.overlay {
+	background-color : rgba(0, 0, 0, 0.65);
+	bottom           : 0;
+	cursor           : default; /* тип курсара */
+	display          : none;
+	left             : 0;
+	position         : fixed; /* фиксированное поцизионирование */
+	/* фон затемнения */
+	right            : 0;
+	top              : 0;
+	z-index          : 120;
+}
+
+/* активируем слой затемнения */
+.overlay:target {
+	display : block;
+}
+
+/* стили модального окна */
+.popup {
+	background            : #fefefe;
+	border                : 1px solid #383838;
+	-moz-border-radius    : 4px;
+	/*font-size: 14px;*/
+	-ms-border-radius     : 4px;
+	-webkit-border-radius : 4px;
+	border-radius         : 4px;
+	-moz-box-shadow       : 0 15px 20px rgba(0, 0, 0, .22), 0 19px 60px rgba(0, 0, 0, .3);
+	-ms-box-shadow        : 0 15px 20px rgba(0, 0, 0, .22), 0 19px 60px rgba(0, 0, 0, .3);
+	/* фиксированное позиционирование, окно стабильно при прокрутке */
+	-webkit-box-shadow    : 0 15px 20px rgba(0, 0, 0, .22), 0 19px 60px rgba(0, 0, 0, .3);
+	box-shadow            : 0 15px 20px rgba(0, 0, 0, .22), 0 19px 60px rgba(0, 0, 0, .3);
+	left                  : 50%;
+	margin                : 0;
+	/* скругление углов */
+	max-width             : 600px;
+	min-width             : 320px;
+	padding               : 15px;
+	position              : fixed;
+	/*font: 14px/18px 'Tahoma', Arial, sans-serif;*/
+	/* внешняя тень */
+	right                 : 0;
+	top                   : -100%;
+	-ms-transform         : translate(-50%, -500%);
+	-o-transform          : translate(-50%, -500%);
+	-webkit-transform     : translate(-50%, -500%);
+	transform             : translate(-50%, -500%);
+	-moz-transition       : -moz-transform 0.6s ease-out;
+	-o-transition         : -o-transform 0.6s ease-out;
+	-webkit-transition    : -webkit-transform 0.6s ease-out;
+	transition            : transform 0.6s ease-out;
+	width                 : 85%;
+	z-index               : 200;
+}
+
+/* активируем модальный блок */
+.overlay:target + .popup {
+	top               : 20%;
+	-ms-transform     : translate(-50%, 0);
+	-o-transform      : translate(-50%, 0);
+	-webkit-transform : translate(-50%, 0);
+	transform         : translate(-50%, 0);
+}
+
+/* формируем кнопку закрытия */
+.close {
+	background-color      : rgba(61, 61, 61, 0.8);
+	border                : 2px solid #ccc;
+	-moz-border-radius    : 15px;
+	-ms-border-radius     : 15px;
+	-o-border-radius      : 15px;
+	-webkit-border-radius : 15px;
+	border-radius         : 15px;
+	-moz-box-shadow       : 0px 0px 10px #000;
+	-webkit-box-shadow    : 0px 0px 10px #000;
+	box-shadow            : 0px 0px 10px #000;
+	font                  : 13px/20px "Tahoma", Arial, sans-serif;
+	font-weight           : bold;
+	height                : 26px;
+	padding               : 0;
+	position              : absolute;
+	right                 : -8px;
+	text-align            : center;
+	text-decoration       : none;
+	top                   : -8px;
+	-moz-transition       : all ease .8s;
+	-ms-transition        : all ease .8s;
+	-o-transition         : all ease .8s;
+	-webkit-transition    : all ease .8s;
+	transition            : all ease .8s;
+	width                 : 26px;
+}
+
+.close:before {
+	color       : rgba(255, 255, 255, 0.9);
+	content     : "X";
+	font-size   : 12px;
+	text-shadow : 0 -1px rgba(0, 0, 0, 0.9);
+}
+
+.close:hover {
+	background-color  : rgba(252, 20, 0, 0.8);
+	-moz-transform    : rotate(360deg);
+	-ms-transform     : rotate(360deg);
+	-o-transform      : rotate(360deg);
+	-webkit-transform : rotate(360deg);
+	transform         : rotate(360deg);
+}
+
+/* изображения внутри окна */
+.popup img {
+	height : auto;
+	width  : 100%;
+}
+
+/* миниатюры слева/справа */
+.pic-left,
+.pic-right {
+	height : auto;
+	width  : 25%;
+}
+
+.pic-left {
+	float  : left;
+	margin : 5px 15px 5px 0;
+}
+
+.pic-right {
+	float  : right;
+	margin : 5px 0 5px 15px;
+}
+
+/* элементы м-медиа, фреймы */
+.popup embed,
+.popup iframe {
+	bottom    : 0;
+	display   : block;
+	left      : 0;
+	margin    : auto;
+	max-width : 600px;
+	min-width : 320px;
+	right     : 0;
+	top       : 0;
+	width     : 100%;
+}
+
+.popup h2 { /* заголовок 2 */
+	color       : #035b2c; /*#008000;*/
+	font-family : "Tahoma", Arial, sans-serif;
+	font-size   : 1.4em;
+	font-weight : 500;
+	line-height : 1.3;
+	margin      : 0;
+	padding     : 5px 0px 10px;
+	text-align  : left;
+	text-shadow : 1px 1px 3px #adadad;
+}
+
+/* параграфы */
+.popup p {
+	margin  : 0;
+	padding : 5px 0
+}
+
+/*Доставка и оплата*/
+.delivery_payment {
+	padding : 0px 40px 0px;
+}
+
+.delivery_payment h2 {
+	color      : #035b2c;
+	text-align : center;
+}
+
+.delivery_payment .link {
+	color           : #ff9300;
+	text-decoration : none;
+}
+
+.delivery_payment .link:hover, .delivery_payment .link:focus {
+	color : #d58820;
+}
+
+.delivery_payment .d-wrap {
+	overflow : auto;
+	width    : 100%;
+}
+
+.delivery_payment .d_logo_delivery {
+	background-position : center;
+	background-repeat   : no-repeat;
+	background-size     : contain;
+	box-shadow          : 1px 1px 5px 2px #035b2c;
+	cursor              : pointer;
+	float               : left;
+	height              : 80px;
+	margin              : 10px;
+	width               : 120px;
+}
+
+.delivery_payment .d_logo_delivery:hover {
+	box-shadow : 1px 1px 5px 2px #035b2c;
+}
+
+.delivery_payment .italic {
+	color          : rgb(0, 0, 0);
+	font-size      : 18px;
+	font-style     : italic;
+	margin         : 0px 0px 10px;
+	text-transform : none;
+}
+
+.delivery_payment .title-wrap {
+	overflow : auto;
+}
+
+.delivery_payment .title-wrap img {
+	float        : left;
+	margin-right : 10px;
+}
+
+.delivery_payment .title-wrap h3 {
+	margin-bottom : 20px;
+	margin-top    : 15px;
+}
+
+.delivery_payment .payment-services {
+	overflow     : auto;
+	padding-left : 2%;
+}
+
+.delivery_payment .payment-services img {
+	float        : left;
+	margin-right : 2%;
+}
+
+.delivery_payment .payment-services h3 {
+	color          : #000;
+	text-transform : none;
+}
+
+.d_logo_delivery {
+	background-position : center;
+	background-repeat   : no-repeat;
+	background-size     : contain;
+	box-shadow          : 1px 1px 5px 2px #035b2c;
+	cursor              : pointer;
+	float               : left;
+	height              : 40px;
+	margin              : 10px;
+	width               : 95px;
+}

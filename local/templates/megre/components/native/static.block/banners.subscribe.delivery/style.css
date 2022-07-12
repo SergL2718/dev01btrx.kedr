@@ -1,0 +1,107 @@
+/*
+ * Изменено: 30 ноября 2021, вторник
+ * Автор: Артамонов Денис <software.engineer@internet.ru>
+ * copyright (c) 2021
+ */
+
+.static-banner-wrapper {
+	border-radius : 10px;
+	overflow      : hidden;
+	position      : relative;
+	z-index       : 1;
+}
+
+.static-banner-background img {
+	width: 100%;
+	-webkit-animation           : imageScale .27s;
+	animation                   : imageScale .27s;
+	-webkit-animation-fill-mode : both;
+	animation-fill-mode         : both;
+	border-radius               : 10px;
+}
+
+.static-banner-wrapper:hover .static-banner-background img {
+	-webkit-animation           : imageScaleHover .27s;
+	animation                   : imageScaleHover .27s;
+	-webkit-animation-fill-mode : both;
+	animation-fill-mode         : both;
+}
+
+.static-banner-content {
+	bottom      : 0;
+	left        : 0;
+	line-height : 1.2;
+	padding     : 40px 50px;
+	position    : absolute;
+	right       : 0;
+	top         : 0;
+}
+
+.static-banner-title {
+	color         : #fff;
+	font-size     : 32px;
+	line-height   : 1.1;
+	margin-bottom : 15px;
+}
+
+.static-banner-description {
+	color         : #fff;
+	font-size     : 16px;
+	line-height   : 1.3;
+	margin-bottom : 30px;
+}
+
+.static-banner-detail a {
+	background-color : #81b751;
+	border-radius    : 5px;
+	color            : #fff;
+	display          : inline-block;
+	font-size        : 16px;
+	font-style       : normal;
+	font-weight      : 400;
+	padding          : 18px 41px 15.5px;
+	text-decoration  : none;
+	transition       : background-color .27s ease-out;
+}
+
+.static-banner-detail a:hover {
+	background-color : #568e25;
+	color            : #fff;
+}
+
+@media (max-width: 767px) {
+	.static-banner-content {
+		padding: 40px 20px;
+	}
+
+	.static-banner-title {
+		font-size: 22px;
+		font-weight: 700;
+		line-height: 24px;
+	}
+
+	.static-banner-description {
+		font-size: 14px;
+		font-weight: 500;
+	}
+
+	.static-banner-detail {
+		flex-direction: column;
+	}
+
+	.static-banner-description {
+		margin-bottom: 15px;
+	}
+
+	.static-banner-detail a {
+		text-align: center;
+	}
+
+	.static-banner-detail > * {
+		width: 100% !important;
+	}
+
+	.static-banner-detail input {
+		margin: 0 0 10px!important;
+	}
+}

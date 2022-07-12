@@ -1,0 +1,36 @@
+/*
+ * @updated 08.12.2020, 16:00
+ * @author Артамонов Денис <bitrix.developer@inbox.ru>
+ * @copyright Copyright (c) 2020, Компания Webco <hello@wbc.cx>
+ * @link http://wbc.cx
+ */
+
+.bxr-news-image {
+    text-align: center;
+}
+
+.bxr-news-image img {
+    max-width: 100%;
+    margin-bottom: 25px;
+}
+
+[data-code="product"][data-id] {
+    overflow: hidden;
+}
+
+[data-code="product"][data-id]:before,
+[data-code="product"][data-id]:after {
+    content: '';
+    display: inline-block;
+    clear: both;
+}
+
+[data-code="product"][data-id] [data-slider] {
+    display: inline-block;
+}
+
+[data-code="product"][data-id] .article-product-list {
+    max-width: 202px;
+    margin: 0;
+    display: inline-block;
+}

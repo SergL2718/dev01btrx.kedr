@@ -1,0 +1,7 @@
+/*
+ * Изменено: 08 декабря 2021, среда
+ * Автор: Артамонов Денис <software.engineer@internet.ru>
+ * copyright (c) 2021
+ */
+
+.faq{margin-bottom:30px}.faq ul{list-style-type:none;margin:0;padding:0}.faq ul li{margin-bottom:10px}.faq ul li:last-child{margin-bottom:0}.faq .title{font-weight:700;margin-bottom:20px;margin-top:50px}.faq .question{color:#8bc34a;cursor:pointer;display:inline-block;font-weight:700}.faq .question:hover,.faq a:hover{text-decoration:underline}.faq .answer{height:0;margin:0;overflow:hidden;transition:all .13s}.faq .answer.show{height:100%;margin:15px 0 25px;overflow:visible}

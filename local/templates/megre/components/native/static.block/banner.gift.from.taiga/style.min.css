@@ -1,0 +1,7 @@
+/*
+ * Изменено: 10 декабря 2021, пятница
+ * Автор: Артамонов Денис <software.engineer@internet.ru>
+ * copyright (c) 2021
+ */
+
+.static-banner-wrapper[data-code=gift-from-taiga] .static-banner-detail{align-items:center;display:flex;justify-content:space-between}.static-banner-wrapper[data-code=gift-from-taiga] .static-banner-detail input{-webkit-appearance:none;background-color:rgba(255,255,255,.77);border:0;border-radius:5px;box-shadow:none;font:inherit;line-height:1;margin-right:30px;outline:0;padding:17px 16px 16px;width:100%}.static-banner-wrapper[data-code=gift-from-taiga] .static-banner-detail input:focus{background-color:#fff}.static-banner-wrapper[data-code=gift-from-taiga] .static-banner-detail input::placeholder{color:#212529}.static-banner-wrapper[data-code=gift-from-taiga] a{padding-left:0;padding-right:0;text-align:center;width:340px}.static-banner-wrapper[data-code=gift-from-taiga] .loader-dots>span:nth-of-type(4n),.static-banner-wrapper[data-code=gift-from-taiga] .loader-dots>span:nth-of-type(4n+1),.static-banner-wrapper[data-code=gift-from-taiga] .loader-dots>span:nth-of-type(4n+2),.static-banner-wrapper[data-code=gift-from-taiga] .loader-dots>span:nth-of-type(4n+3){background-color:#fff}

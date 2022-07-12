@@ -1,0 +1,404 @@
+/*
+color1 = 0894c7
+color2 = ceeaf4
+*/
+
+.tariff_ribbons_va7 {
+    font-family: 'PT Sans', 'Open Sans', sans-serif;
+    margin-bottom: 20px;
+    color: #414141;
+    //visibility: hidden;
+}
+
+.tariff_ribbons_va7 .tariff_ribbons_top {
+    background-color: #0894c7;
+    height: 60px;
+    overflow: hidden;
+}
+
+.tariff_ribbons_va7 .tariff_ribbons_top > div {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.tariff_ribbons_va7 .tariff_ribbons_top > div > div {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.tariff_ribbons_va7 .tariff_ribbons_top p {
+    padding: 12px 18px 15px;
+    margin: 0;
+    color: #fff;
+    vertical-align: middle;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.tariff_ribbons_va7 .tariff_ribbons_cost {
+    background-color: #ceeaf4;
+    font-size: 26px;
+    padding: 18px 0 18px 28px;    
+    border-left: 2px solid #ceeaf4;
+    border-right: 2px solid #ceeaf4;
+}
+
+.tariff_ribbons_va7 .tariff_ribbons_dopcost {
+    font-size: 16px;
+}
+
+.tariff_ribbons_va7 .tariff_advantages {
+    border-left: 2px solid #ceeaf4;
+    border-right: 2px solid #ceeaf4;
+}
+
+.tariff_ribbons_va7 .tariff_advantages ul {
+    margin: 0;
+    padding: 18px 10px 18px 42px;
+}
+
+.tariff_ribbons_va7 .tariff_advantages ul li {
+    padding-left: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    list-style-type: none;
+    position: relative;
+    margin-bottom: 12px;
+}
+
+.tariff_ribbons_va7 .tariff_advantages ul li:after {
+    content: "\f105";
+    font-family: FontAwesome;
+    font-size: 16px;
+    line-height: 1.2;
+    position: absolute;
+    left: -10px;
+    top: 0;
+    color: #d3d3d3;
+}
+
+.tariff_ribbons_va7 .tariff_action {
+    height: 72px;
+    background-color: #ceeaf4;
+    border-left: 2px solid #ceeaf4;
+    border-right: 2px solid #ceeaf4;
+    border-bottom: 2px solid #ceeaf4;
+}
+
+.tariff_ribbons_va7 .tariff_action .tariff_action_button {
+    padding: 12px 0px;
+    background-color: #0894c7;
+    color: #fff;
+    position: relative;
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    top: 17px;
+    text-decoration: none;
+}
+
+.tariff_ribbons_va7 .tariff_action .tariff_action_button:hover {
+    text-decoration: none;
+} 
+
+/* tariff_green */
+.tariff_ribbons_va7.tariff_green .tariff_ribbons_top, .tariff_ribbons_va7.tariff_green .tariff_action .tariff_action_button {
+    background-color: #33cd31;
+}
+.tariff_ribbons_va7.tariff_green .tariff_ribbons_cost, .tariff_ribbons_va7.tariff_green .tariff_advantages, .tariff_ribbons_va7.tariff_green .tariff_action {
+    border-left: 2px solid #d8f6d8;
+    border-right: 2px solid #d8f6d8;
+}
+.tariff_ribbons_va7.tariff_green .tariff_ribbons_cost {
+    background-color: #d8f6d8;
+}
+.tariff_ribbons_va7.tariff_green .tariff_action {
+    background-color: #d8f6d8;
+    border-bottom: 2px solid #d8f6d8;
+}
+
+/* tariff_green_border */
+.tariff_ribbons_va7.tariff_green_border .tariff_ribbons_top, .tariff_ribbons_va7.tariff_green_border .tariff_action .tariff_action_button {
+    background-color: #33cd31;
+}
+.tariff_ribbons_va7.tariff_green_border .tariff_ribbons_cost, .tariff_ribbons_va7.tariff_green_border .tariff_advantages, .tariff_ribbons_va7.tariff_green_border .tariff_action {
+    border-left: 2px solid #3dd03c;
+    border-right: 2px solid #3dd03c;
+}
+.tariff_ribbons_va7.tariff_green_border .tariff_ribbons_cost {
+    background-color: #d8f6d8;
+}
+.tariff_ribbons_va7.tariff_green_border .tariff_action {
+    background-color: #d8f6d8;
+    border-bottom: 2px solid #3dd03c;
+}
+
+/* tariff_orange */
+.tariff_ribbons_va7.tariff_orange .tariff_ribbons_top, .tariff_ribbons_va7.tariff_orange .tariff_action .tariff_action_button {
+    background-color: #ff6501;
+}
+.tariff_ribbons_va7.tariff_orange .tariff_ribbons_cost, .tariff_ribbons_va7.tariff_orange .tariff_advantages, .tariff_ribbons_va7.tariff_orange .tariff_action {
+    border-left: 2px solid #ffe2cf;
+    border-right: 2px solid #ffe2cf;
+}
+.tariff_ribbons_va7.tariff_orange .tariff_ribbons_cost {
+    background-color: #ffe2cf;
+}
+.tariff_ribbons_va7.tariff_orange .tariff_action {
+    background-color: #ffe2cf;
+    border-bottom: 2px solid #ffe2cf;
+}
+
+/* tariff_orange_border */
+.tariff_ribbons_va7.tariff_orange_border .tariff_ribbons_top, .tariff_ribbons_va7.tariff_orange_border .tariff_action .tariff_action_button {
+    background-color: #ff6501;
+}
+.tariff_ribbons_va7.tariff_orange_border .tariff_ribbons_cost, .tariff_ribbons_va7.tariff_orange_border .tariff_advantages, .tariff_ribbons_va7.tariff_orange_border .tariff_action {
+    border-left: 2px solid #ff6501;
+    border-right: 2px solid #ff6501;
+}
+.tariff_ribbons_va7.tariff_orange_border .tariff_ribbons_cost {
+    background-color: #ffe2cf;
+}
+.tariff_ribbons_va7.tariff_orange_border .tariff_action {
+    background-color: #ffe2cf;
+    border-bottom: 2px solid #ff6501;
+}
+
+/* tariff_yellow */
+.tariff_ribbons_va7.tariff_yellow .tariff_ribbons_top, .tariff_ribbons_va7.tariff_yellow .tariff_action .tariff_action_button {
+    background-color: #ffcc00;
+}
+.tariff_ribbons_va7.tariff_yellow .tariff_ribbons_cost, .tariff_ribbons_va7.tariff_yellow .tariff_advantages, .tariff_ribbons_va7.tariff_yellow .tariff_action {
+    border-left: 2px solid #fff5cf;
+    border-right: 2px solid #fff5cf;
+}
+.tariff_ribbons_va7.tariff_yellow .tariff_ribbons_cost {
+    background-color: #fff5cf;
+}
+.tariff_ribbons_va7.tariff_yellow .tariff_action {
+    background-color: #fff5cf;
+    border-bottom: 2px solid #fff5cf;
+}
+
+/* tariff_yellow_border */
+.tariff_ribbons_va7.tariff_yellow_border .tariff_ribbons_top, .tariff_ribbons_va7.tariff_yellow_border .tariff_action .tariff_action_button {
+    background-color: #ffcc00;
+}
+.tariff_ribbons_va7.tariff_yellow_border .tariff_ribbons_cost, .tariff_ribbons_va7.tariff_yellow_border .tariff_advantages, .tariff_ribbons_va7.tariff_yellow_border .tariff_action {
+    border-left: 2px solid #ffcc00;
+    border-right: 2px solid #ffcc00;
+}
+.tariff_ribbons_va7.tariff_yellow_border .tariff_ribbons_cost {
+    background-color: #fff5cf;
+}
+.tariff_ribbons_va7.tariff_yellow_border .tariff_action {
+    background-color: #fff5cf;
+    border-bottom: 2px solid #ffcc00;
+}
+
+/* tariff_purple */
+.tariff_ribbons_va7.tariff_purple .tariff_ribbons_top, .tariff_ribbons_va7.tariff_purple .tariff_action .tariff_action_button {
+    background-color: #ca01cb;
+}
+.tariff_ribbons_va7.tariff_purple .tariff_ribbons_cost, .tariff_ribbons_va7.tariff_purple .tariff_advantages, .tariff_ribbons_va7.tariff_purple .tariff_action {
+    border-left: 2px solid #f5cff5;
+    border-right: 2px solid #f5cff5;
+}
+.tariff_ribbons_va7.tariff_purple .tariff_ribbons_cost {
+    background-color: #f5cff5;
+}
+.tariff_ribbons_va7.tariff_purple .tariff_action {
+    background-color: #f5cff5;
+    border-bottom: 2px solid #f5cff5;
+}
+
+/* tariff_purple_border */
+.tariff_ribbons_va7.tariff_purple_border .tariff_ribbons_top, .tariff_ribbons_va7.tariff_purple_border .tariff_action .tariff_action_button {
+    background-color: #ca01cb;
+}
+.tariff_ribbons_va7.tariff_purple_border .tariff_ribbons_cost, .tariff_ribbons_va7.tariff_purple_border .tariff_advantages, .tariff_ribbons_va7.tariff_purple_border .tariff_action {
+    border-left: 2px solid #ca01cb;
+    border-right: 2px solid #ca01cb;
+}
+.tariff_ribbons_va7.tariff_purple_border .tariff_ribbons_cost {
+    background-color: #f5cff5;
+}
+.tariff_ribbons_va7.tariff_purple_border .tariff_action {
+    background-color: #f5cff5;
+    border-bottom: 2px solid #ca01cb;
+}
+
+/* tariff_scarlet */
+.tariff_ribbons_va7.tariff_scarlet .tariff_ribbons_top, .tariff_ribbons_va7.tariff_scarlet .tariff_action .tariff_action_button {
+    background-color: #ff3300;
+}
+.tariff_ribbons_va7.tariff_scarlet .tariff_ribbons_cost, .tariff_ribbons_va7.tariff_scarlet .tariff_advantages, .tariff_ribbons_va7.tariff_scarlet .tariff_action {
+    border-left: 2px solid #ffd8cf;
+    border-right: 2px solid #ffd8cf;
+}
+.tariff_ribbons_va7.tariff_scarlet .tariff_ribbons_cost {
+    background-color: #ffd8cf;
+}
+.tariff_ribbons_va7.tariff_scarlet .tariff_action {
+    background-color: #ffd8cf;
+    border-bottom: 2px solid #ffd8cf;
+}
+
+/* tariff_scarlet_border */
+.tariff_ribbons_va7.tariff_scarlet_border .tariff_ribbons_top, .tariff_ribbons_va7.tariff_scarlet_border .tariff_action .tariff_action_button {
+    background-color: #ff3300;
+}
+.tariff_ribbons_va7.tariff_scarlet_border .tariff_ribbons_cost, .tariff_ribbons_va7.tariff_scarlet_border .tariff_advantages, .tariff_ribbons_va7.tariff_scarlet_border .tariff_action {
+    border-left: 2px solid #ff3300;
+    border-right: 2px solid #ff3300;
+}
+.tariff_ribbons_va7.tariff_scarlet_border .tariff_ribbons_cost {
+    background-color: #ffd8cf;
+}
+.tariff_ribbons_va7.tariff_scarlet_border .tariff_action {
+    background-color: #ffd8cf;
+    border-bottom: 2px solid #ff3300;
+}
+
+/* tariff_deepsea */
+.tariff_ribbons_va7.tariff_deepsea .tariff_ribbons_top, .tariff_ribbons_va7.tariff_deepsea .tariff_action .tariff_action_button {
+    background-color: #0894c7;
+}
+.tariff_ribbons_va7.tariff_deepsea .tariff_ribbons_cost, .tariff_ribbons_va7.tariff_deepsea .tariff_advantages, .tariff_ribbons_va7.tariff_deepsea .tariff_action {
+    border-left: 2px solid #ceeaf4;
+    border-right: 2px solid #ceeaf4;
+}
+.tariff_ribbons_va7.tariff_deepsea .tariff_ribbons_cost {
+    background-color: #ceeaf4;
+}
+.tariff_ribbons_va7.tariff_deepsea .tariff_action {
+    background-color: #ceeaf4;
+    border-bottom: 2px solid #ceeaf4;
+}
+
+/* tariff_deepsea_border */
+.tariff_ribbons_va7.tariff_deepsea_border .tariff_ribbons_top, .tariff_ribbons_va7.tariff_deepsea_border .tariff_action .tariff_action_button {
+    background-color: #0894c7;
+}
+.tariff_ribbons_va7.tariff_deepsea_border .tariff_ribbons_cost, .tariff_ribbons_va7.tariff_deepsea_border .tariff_advantages, .tariff_ribbons_va7.tariff_deepsea_border .tariff_action {
+    border-left: 2px solid #0894c7;
+    border-right: 2px solid #0894c7;
+}
+.tariff_ribbons_va7.tariff_deepsea_border .tariff_ribbons_cost {
+    background-color: #ceeaf4;
+}
+.tariff_ribbons_va7.tariff_deepsea_border .tariff_action {
+    background-color: #ceeaf4;
+    border-bottom: 2px solid #0894c7;
+}
+
+/* tariff_blue */
+.tariff_ribbons_va7.tariff_blue .tariff_ribbons_top, .tariff_ribbons_va7.tariff_blue .tariff_action .tariff_action_button {
+    background-color: #3d9efe;
+}
+.tariff_ribbons_va7.tariff_blue .tariff_ribbons_cost, .tariff_ribbons_va7.tariff_blue .tariff_advantages, .tariff_ribbons_va7.tariff_blue .tariff_action {
+    border-left: 2px solid #d8ecff;
+    border-right: 2px solid #d8ecff;
+}
+.tariff_ribbons_va7.tariff_blue .tariff_ribbons_cost {
+    background-color: #d8ecff;
+}
+.tariff_ribbons_va7.tariff_blue .tariff_action {
+    background-color: #d8ecff;
+    border-bottom: 2px solid #d8ecff;
+}
+
+/* tariff_blue_border */
+.tariff_ribbons_va7.tariff_blue_border .tariff_ribbons_top, .tariff_ribbons_va7.tariff_blue_border .tariff_action .tariff_action_button {
+    background-color: #3d9efe;
+}
+.tariff_ribbons_va7.tariff_blue_border .tariff_ribbons_cost, .tariff_ribbons_va7.tariff_blue_border .tariff_advantages, .tariff_ribbons_va7.tariff_blue_border .tariff_action {
+    border-left: 2px solid #3d9efe;
+    border-right: 2px solid #3d9efe;
+}
+.tariff_ribbons_va7.tariff_blue_border .tariff_ribbons_cost {
+    background-color: #d8ecff;
+}
+.tariff_ribbons_va7.tariff_blue_border .tariff_action {
+    background-color: #d8ecff;
+    border-bottom: 2px solid #3d9efe;
+}
+
+/* tariff_dark */
+.tariff_ribbons_va7.tariff_dark .tariff_ribbons_top, .tariff_ribbons_va7.tariff_dark .tariff_action .tariff_action_button {
+    background-color: #424f60;
+}
+.tariff_ribbons_va7.tariff_dark .tariff_ribbons_cost, .tariff_ribbons_va7.tariff_dark .tariff_advantages, .tariff_ribbons_va7.tariff_dark .tariff_action {
+    border-left: 2px solid #f8f9fb;
+    border-right: 2px solid #f8f9fb;
+}
+.tariff_ribbons_va7.tariff_dark .tariff_ribbons_cost {
+    background-color: #f8f9fb;
+}
+.tariff_ribbons_va7.tariff_dark .tariff_action {
+    background-color: #f8f9fb;
+    border-bottom: 2px solid #f8f9fb;
+}
+
+/* tariff_dark_border */
+.tariff_ribbons_va7.tariff_dark_border .tariff_ribbons_top, .tariff_ribbons_va7.tariff_dark_border .tariff_action .tariff_action_button {
+    background-color: #424f60;
+}
+.tariff_ribbons_va7.tariff_dark_border .tariff_ribbons_cost, .tariff_ribbons_va7.tariff_dark_border .tariff_advantages, .tariff_ribbons_va7.tariff_dark_border .tariff_action {
+    border-left: 2px solid #424f60;
+    border-right: 2px solid #424f60;
+}
+.tariff_ribbons_va7.tariff_dark_border .tariff_ribbons_cost {
+    background-color: #f8f9fb;
+}
+.tariff_ribbons_va7.tariff_dark_border .tariff_action {
+    background-color: #f8f9fb;
+    border-bottom: 2px solid #424f60;
+}
+
+/* tariff_white */
+.tariff_ribbons_va7.tariff_white .tariff_ribbons_top, .tariff_ribbons_va7.tariff_white .tariff_action .tariff_action_button {
+    background-color: #ffffff;
+}
+.tariff_ribbons_va7.tariff_white .tariff_ribbons_cost, .tariff_ribbons_va7.tariff_white .tariff_advantages, .tariff_ribbons_va7.tariff_white .tariff_action {
+    border-left: 2px solid #f8f9fb;
+    border-right: 2px solid #f8f9fb;
+}
+.tariff_ribbons_va7.tariff_white .tariff_ribbons_cost {
+    background-color: #f8f9fb;
+}
+.tariff_ribbons_va7.tariff_white .tariff_action {
+    background-color: #f8f9fb;
+    border-bottom: 2px solid #f8f9fb;
+}
+.tariff_ribbons_va7.tariff_white .tariff_ribbons_top p, .tariff_ribbons_va7.tariff_white .tariff_action .tariff_action_button {
+    color: #424f60;
+}
+.tariff_ribbons_va7.tariff_white .tariff_action .tariff_action_button {
+    border: 1px solid #424f60;
+}
+
+/* tariff_white_border */
+.tariff_ribbons_va7.tariff_white_border .tariff_ribbons_top, .tariff_ribbons_va7.tariff_white_border .tariff_action .tariff_action_button {
+    background-color: #ffffff;
+}
+.tariff_ribbons_va7.tariff_white_border .tariff_ribbons_cost, .tariff_ribbons_va7.tariff_white_border .tariff_advantages, .tariff_ribbons_va7.tariff_white_border .tariff_action {
+    border-left: 2px solid #ffffff;
+    border-right: 2px solid #ffffff;
+}
+.tariff_ribbons_va7.tariff_white_border .tariff_ribbons_cost {
+    background-color: #f8f9fb;
+}
+.tariff_ribbons_va7.tariff_white_border .tariff_action {
+    background-color: #f8f9fb;
+    border-bottom: 2px solid #ffffff;
+}
+.tariff_ribbons_va7.tariff_white_border .tariff_ribbons_top p, .tariff_ribbons_va7.tariff_white_border .tariff_action .tariff_action_button {
+    color: #424f60;
+}
+.tariff_ribbons_va7.tariff_white_border .tariff_action .tariff_action_button {
+    border: 1px solid #424f60;
+}

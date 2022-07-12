@@ -1,0 +1,74 @@
+/*
+ * Изменено: 06 сентября 2021, понедельник
+ * Автор: Артамонов Денис <software.engineer@internet.ru>
+ * copyright (c) 2021
+ */
+
+.bxr-ribbon-marker-vertical {
+	left     : 0;
+	opacity  : 0.8;
+	position : absolute;
+	top      : 10px;
+	width    : 40px;
+	z-index  : 990;
+}
+
+.bxr-ribbon-marker-vertical .bxr-marker-week,
+.bxr-ribbon-marker-vertical .bxr-marker-new,
+.bxr-ribbon-marker-vertical .bxr-marker-sale,
+.bxr-ribbon-marker-vertical .bxr-marker-rec,
+.bxr-ribbon-marker-vertical .bxr-marker-discount,
+.bxr-ribbon-marker-vertical .bxr-marker-hit {
+	background    : #0ba72a;
+	border        : 1px solid #0ba72a;
+	cursor        : pointer;
+	display       : inline-block;
+	margin-bottom : 2px;
+	padding       : 3px;
+	text-align    : center;
+	width         : 65px;
+}
+
+.bxr-ribbon-marker-vertical .bxr-marker-hit {
+	background   : #fcbd00;
+	border-color : #fcbd00;
+}
+
+.bxr-ribbon-marker-vertical .bxr-marker-sale, .bxr-ribbon-marker-vertical .bxr-marker-discount {
+	background   : #ea1100;
+	border-color : #ea1100;
+}
+
+.bxr-ribbon-marker-vertical .bxr-marker-week {
+	background   : #da2f0f;
+	border-color : #da2f0f;
+}
+
+.bxr-ribbon-marker-vertical .bxr-marker-new {
+	background   : #0f7eda;
+	border-color : #0f7eda;
+}
+
+.bxr-ribbon-marker-vertical i {
+	border      : 1px solid rgba(255, 255, 255, 0);
+	color       : #fff;
+	display     : inline-block;
+	font-size   : 12px;
+	font-style  : normal;
+	font-weight : normal;
+	text-align  : left;
+	transform   : none;
+}
+
+.bxr-ribbon-marker-vertical i.fa {
+	font-size : 16px;
+	transform : translateY(1px);
+}
+
+@media (max-width : 992px) {
+	.bxr-ecommerce-v2-list .bxr-ribbon-marker-vertical,
+	.bxr-ecommerce-v1-list .bxr-ribbon-marker-vertical {
+		bottom : 15px;
+		top    : inherit;
+	}
+}

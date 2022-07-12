@@ -1,0 +1,33 @@
+.bxr-element-reviews-v2 {
+    padding: 0px 0 28px 0;
+    margin-bottom: 28px;
+}
+
+div:not(:last-child) > .bxr-element-reviews-v2 {
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.bxr-element-reviews-v2 .bxr-element-name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #1e1e1e;
+    margin-right: 8px;
+}
+
+.bxr-element-reviews-v2 .bxr-element-note {
+    margin: 5px 0 10px 0;
+}
+.bxr-element-reviews-v2 .bxr-element-post {
+    color: #a8a8a8;
+    font-size: 14px;
+}
+
+.bxr-element-reviews-v2 .bxr-element-date {
+    color: #a8a8a8;
+    font-size: 12px;
+}
+
+.bxr-element-reviews-v2 .bxr-element-preview {
+    color: #414141;
+    font-size: 13px;
+}

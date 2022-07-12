@@ -1,0 +1,7 @@
+/*
+ * Изменено: 06 декабря 2021, понедельник
+ * Автор: Артамонов Денис <software.engineer@internet.ru>
+ * copyright (c) 2021
+ */
+
+.payment-methods-wrapper{align-items:center;display:flex}.payment-methods-wrapper a{align-items:center;border-radius:3px;display:inline-flex;height:47px;justify-content:center;margin-right:25px;-moz-transition:opacity .17s;-ms-transition:opacity .17s;-o-transition:opacity .17s;-webkit-transition:opacity .17s;transition:opacity .17s;width:73px}.payment-methods-wrapper a:last-child{margin-right:0}.payment-methods-wrapper a:hover{opacity:.9}.payment-methods-wrapper a[href="https://www.apple.com/ru/apple-pay/"]{background-color:#383838}.payment-methods-wrapper a[href="https://pay.google.com/intl/ru_ru/about/"]{background-color:#5485ec}.payment-methods-wrapper a[href="https://www.paypal.com/ru/"]{background-color:#3056d3}.payment-methods-wrapper a[href="https://www.visa.com.ru/"]{background-color:#00579f}.payment-methods-wrapper a[href="https://www.mastercard.ru/ru-ru.html"]{background-color:#0f3560}.payment-methods-wrapper a[href="http://www.ru.jcb/ru/"]{background-color:#1d2970}

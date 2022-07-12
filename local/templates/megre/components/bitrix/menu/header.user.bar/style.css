@@ -1,0 +1,299 @@
+/*
+ * Изменено: 29 сентября 2021, среда
+ * Автор: Артамонов Денис <software.engineer@internet.ru>
+ * copyright (c) 2021
+ */
+
+.header-user-bar-wrapper {
+	position : relative;
+}
+
+.header-user-bar {
+	display : flex;
+}
+
+.header-user-bar a {
+	align-items      : center;
+	background-color : transparent;
+	border-radius    : 10px;
+	display          : flex;
+	height           : 36px;
+	justify-content  : center;
+	margin           : 0 6px;
+	position         : relative;
+	text-decoration  : none;
+	transition       : background-color .27s ease-out;
+	width            : 36px;
+}
+
+.header-user-bar a:hover {
+	background-color : #f1f9ea;
+}
+
+.header-user-bar-count {
+	align-items      : center;
+	background-color : #003e2a;
+	border-radius    : 50%;
+	bottom           : 4px;
+	color            : #fff;
+	display          : flex;
+	font-size        : 8px;
+	justify-content  : center;
+	line-height      : 1;
+	min-height       : 16px;
+	min-width        : 16px;
+	position         : absolute;
+	right            : 0;
+}
+
+.header-user-bar-count span {
+	transform : translateY(.5px);
+}
+
+.user-bar-popup {
+	background-color : #fff;
+	border           : 1px solid #b19e86;
+	border-radius    : 0 0 5px 5px;
+	display          : none;
+	margin-top       : 32px;
+	position         : absolute;
+	right            : 0;
+	width            : 370px;
+	z-index          : 85;
+}
+
+.user-bar-popup a {
+	text-decoration : none;
+}
+
+.user-bar-popup-header {
+	align-items      : center;
+	background-color : #81b751;
+	color            : #fff;
+	display          : flex;
+	font-size        : 16px;
+	font-weight      : bold;
+	height           : 56px;
+	justify-content  : space-between;
+	line-height      : 1;
+	padding          : 15px;
+	text-transform   : uppercase;
+}
+
+.user-bar-popup-header-close {
+	cursor  : pointer;
+	padding : 5px;
+}
+
+.user-bar-popup-content {
+	max-height : 670px;
+	overflow-y : scroll;
+}
+
+.user-bar-popup-product-wrapper {
+	border-bottom  : 1px solid #b19e86;
+	margin         : 15px;
+	padding-bottom : 15px;
+}
+
+.user-bar-popup-product-wrapper:last-child {
+	border-bottom  : none;
+	padding-bottom : 0;
+}
+
+.user-bar-popup-product-delete {
+	align-items     : center;
+	border-radius   : 4px;
+	cursor          : pointer;
+	display         : flex;
+	height          : 15px;
+	justify-content : center;
+	line-height     : 1;
+	transition      : background-color .27s ease-out;
+	width           : 15px;
+}
+
+.user-bar-popup-product-delete:hover {
+	background-color : #f1f9ea;
+}
+
+.user-bar-popup-product-delete i.cross {
+	height : 9px;
+	width  : 9px;
+}
+
+.user-bar-popup-product-content {
+	align-items     : center;
+	display         : flex;
+	justify-content : flex-start;
+	margin-top      : 3px;
+	width           : 100%;
+}
+
+.user-bar-popup-product-image img {
+	border-radius : 4px;
+}
+
+.user-bar-popup-product-description {
+	margin : 0 15px;
+	width  : 100%;
+}
+
+.user-bar-popup-product-title {
+	color         : #898989;
+	font-size     : 14px;
+	margin-bottom : 5px;
+}
+
+.user-bar-popup-product-price {
+	color       : #636363;
+	font-size   : 16px;
+	font-weight : bold;
+}
+
+.user-bar-popup-product-add-to-basket {
+	align-items      : center;
+	background-color : #81b751;
+	border-radius    : 5px;
+	color            : #fff;
+	display          : flex;
+	font-size        : 9.5px;
+	height           : 31px;
+	justify-content  : center;
+	transition       : opacity .17s ease-out;
+	width            : 68px;
+}
+
+.user-bar-popup-product-add-to-basket:hover {
+	color   : #fff;
+	opacity : .8;
+}
+
+.user-bar-popup-product-add-to-basket.not-available {
+	background-color : #c1c1c1;
+}
+
+.user-bar-popup-product-change-quantity {
+	align-items     : center;
+	border          : 1px solid #b19e86;
+	border-radius   : 5px;
+	display         : flex;
+	height          : 26px;
+	justify-content : space-between;
+	margin-top      : 7px;
+	padding         : 4px;
+	transition      : opacity .17s ease-out;
+}
+
+.user-bar-popup-product-quantity {
+	padding : 3px;
+}
+
+.user-bar-popup-product-quantity:hover {
+	opacity : .7;
+}
+
+.user-bar-popup-product-change-quantity span {
+	color       : #b19e86;
+	font-size   : 14px;
+	line-height : 1;
+}
+
+.header-user-auth {
+	position: absolute;
+	top: 68px;
+	right: 0;
+	background: #FFFFFF;
+	border: 1px solid #B19E86;
+	z-index: 9;
+	padding: 20px 30px;
+	width: 301px;
+	display: none;
+}
+
+.header-user-auth-title {
+	color: #898989;
+	font-size: 14px;
+	line-height: 21px;
+	margin-bottom: 19px;
+}
+
+.header-user-auth .button {
+	width: 100%;
+}
+
+@media (max-width: 767px) {
+
+	.header-user-bar {
+		justify-content: flex-end;
+	}
+
+	.header-user-bar a[data-code="user-account"] {
+		display: none;
+	}
+
+	.header-user-bar a > img {
+		filter: grayscale(1) brightness(1.2) contrast(0.6);
+	}
+
+	.user-bar-popup {
+		position: fixed;
+		margin: 0;
+		top: 73px;
+		width: 100%;
+		left: 0;
+		right: 0;
+		bottom: 68px;
+		border: none;
+		z-index: 50;
+		border-radius: 0;
+	}
+
+	.user-bar-popup-header {
+		background: #fff;
+		color: #636363;
+	}
+
+	.user-bar-popup-header-close .cross-white {
+		background-image: url('/local/templates/megre/images/icons/cross.svg');
+	}
+
+	.user-bar-popup-content {
+		height: calc(100% - 56px);
+	}
+}
+
+@media (min-width: 767px) {
+	.mobile-user-bar {
+		display: none!important;
+	}
+}
+
+.mobile-user-bar {
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	border-top: 1px solid #CACACA;
+	background: #fff;
+	z-index: 99;
+	padding: 10px 20px;
+	gap: 15px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+}
+
+.mobile-user-bar__card {
+	display: flex;
+	flex-direction: column;
+	color: #898989;
+	font-size: 12px;
+	align-items: center;
+	justify-content: center;
+}
+
+.mobile-user-bar__card img {
+	width: 24px;
+	height: 24px;
+	margin-bottom: 7px;
+}

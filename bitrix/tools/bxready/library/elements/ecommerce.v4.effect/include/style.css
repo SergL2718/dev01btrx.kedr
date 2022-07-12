@@ -1,0 +1,323 @@
+.bxr-ecommerce-v4-effect {
+    padding: 20px 10px;
+    text-align: center;
+    position: relative;
+}
+
+.bxr-ecommerce-v4-effect:before {
+    content: '';
+    position: absolute;
+    top: 1px;
+    bottom: -200px;
+    right: -16px;
+    width: 1px;
+    display: block;
+    border-color: #fff;
+    transition: border-color 0.2s ease-in;
+    -webkit-transition: border-color 0.2s ease-in;
+    -moz-transition: border-color 0.2s ease-in;
+}
+
+.bxr-ecommerce-v4-effect .bxr-element-image{
+    line-height: 250px;
+    width: 250px;
+    height: 250px;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.bxr-ecommerce-v4-effect .bxr-element-image img{
+    display: inline !important;
+    max-width: 100%;
+    max-height: 100%;
+    border: 0;
+}
+
+.bxr-ecommerce-v4-effect .only-hover {
+    visibility: hidden;
+    position: absolute;
+    background: #fff;
+    left: 2px;
+    right: 2px;
+    bottom: 2px;
+    padding: 65px 0px 42px 0px;
+    text-align: center;
+    opacity: 0;
+}
+
+.bxr-ecommerce-v4-effect .only-hover ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    transform: scale(0);
+    -moz-transform: scale(0);
+    -webkit-transform: scale(0);
+    opacity: 0;
+    transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    width: 100%;
+    top: 10px;
+    left: 0;
+}
+
+.bxr-ecommerce-v4-effect .only-hover ul li {
+    display: inline-block;
+    padding: 5px 1px 5px 0px;
+    vertical-align: top;
+    position: relative;
+}
+
+.bxr-ecommerce-v4-effect .only-hover ul li a:not(.bxr-subscribe) 
+, .bxr-ecommerce-v4-effect .only-hover ul li button {    
+    background: #fff;
+}
+
+.bxr-ecommerce-v4-effect .only-hover ul li a 
+, .bxr-ecommerce-v4-effect .only-hover ul li button
+, .bxr-ecommerce-v4-effect .only-hover ul li .bxr-subscribe {
+    display: block;
+    width: 45px;
+    height: 45px;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border: 1px solid #ccc;
+    transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    font-size: 16px;
+    padding: 10px 0px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    margin-bottom: 0px;
+}
+
+.bxr-ecommerce-v4-effect .only-hover ul li .bxr-subscribe {
+    margin-top: 0px;
+}
+
+.bxr-ecommerce-v4-effect .only-hover ul li .bxr-subscribe:hover {
+    box-shadow: none;
+}
+
+.bxr-ecommerce-v4-effect .only-hover ul li .bxr-subscribe .fa {
+    color: #000;
+}
+
+.bxr-ecommerce-v4-effect .only-hover ul li .bxr-subscribe.bxr-color-flat .fa {
+    color: #fff;
+}
+
+.bxr-ecommerce-v4-effect .only-hover ul li button.bxr-indicator-item-active 
+, .bxr-ecommerce-v4-effect .only-hover ul li button.bxr-counter-compare-active{
+    background: #ccc;
+}
+
+.bxr-ecommerce-v4-effect:hover .only-hover {
+    visibility: visible;
+    opacity: 1;
+}
+
+.bxr-ecommerce-v4-effect:hover .only-hover ul {
+    transform: scale(1);
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    opacity: 1;
+}
+
+.bxr-ecommerce-v4-effect:hover .hover-hide {
+    opacity: 0;
+}
+
+.bxr-ecommerce-v4-effect:hover:before {
+    left: -4px;
+    height: auto;
+    width: auto;
+    bottom: 0px;
+    top: 0px;
+    right: -4px;
+    background: none;
+    border: 2px solid #ECF0F1;
+    z-index: 0;
+    display: block;
+}
+
+.bxr-ecommerce-v4-effect .bxr-element-name {
+    padding: 10px 0;
+}
+
+.bxr-ecommerce-v4-effect .bxr-element-container .bxr-element-price{
+    padding: 0 10px;
+    margin: 10px 0;
+}
+
+.bxr-market-current-price.bxr-market-format-price {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.bxr-market-old-price {
+    text-decoration: line-through;
+}
+
+.bxr-ecommerce-v4-effect .bxr-market-current-price
+,.bxr-ecommerce-v4-effect .bxr-market-old-price 
+,.bxr-ecommerce-v4-effect .bxr-market-from {
+    margin-right: 0;
+    float: none;
+}
+
+.bxr-ecommerce-v4-effect .bxr-market-item-price {
+    border-bottom: none;
+    padding: 0;
+}
+
+.bxr-ecommerce-v4-effect .bxr-basket-btn-wr {
+    position: relative;
+}
+
+.bxr-ecommerce-v4-effect .bxr-basket-btn-wr form {
+    position: absolute;
+    top: -52px;
+    width: 130px;
+    background: #fff; 
+    border: 2px solid #CCC;
+    border-radius: 2px;
+    padding: 4px;
+    opacity: 0;
+    visibility: hidden;    
+    transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+}
+
+.bxr-ecommerce-v4-effect .bxr-basket-btn-wr form.visible-form {
+    visibility: visible;
+    opacity: 1;
+    transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+}
+
+.bxr-ecommerce-v4-effect .bxr-basket-btn-wr form.bxr-basket-action .bxr-quantity-button-plus {
+    margin-right: 0px !important;
+}
+
+.bxr-ecommerce-v4-effect .bxr-basket-btn-wr form .bxr-basket-add {
+    width: 34px;
+    height: 34px;
+    margin-left: 4px !important;
+    margin-right: 0px !important;
+    float: left;
+    padding: 6px 0px;
+}
+
+.bxr-ecommerce-v4-effect .bxr-basket-btn-wr form .bxr-basket-add span {
+    color: #000;
+    font-size: 16px;
+}
+
+.bxr-ecommerce-v4-effect .bxr-basket-btn-wr form .fa-caret-down {
+    position: absolute;
+    bottom: -15px;
+    left: 17px;
+    font-size: 20px;
+    color: #ccc;
+}
+
+.bxr-ecommerce-v4-effect .btn-tooltip {
+    position: absolute;
+    bottom: 56px;
+    left: -18px;
+    border: 1px solid #ccc;
+    border: none;
+    border-radius: 2px;
+    padding: 4px;
+    font-size: 11px;
+    width: 80px;
+    background: #000;
+    color: #fff;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+}
+
+.bxr-ecommerce-v4-effect .only-hover ul li:hover .btn-tooltip {
+    opacity: 1;
+    visibility: visible;
+}
+
+.bxr-ecommerce-v4-effect .btn-tooltip .fa-caret-down {
+    position: absolute;
+    bottom: -10px;
+    left: 35px;
+    font-size: 13px;
+    color: #000;
+}
+
+.bxr-ecommerce-v4-effect .only-hover ul li .btn-tooltip.hidden-tooltip {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.bxr-ecommerce-v4-effect .left {
+    position: relative;
+}
+
+.bxr-ecommerce-v4-effect .bxr-sale-indicator {
+    position: absolute;
+    top: -16px;
+    right: 0px;
+}
+
+.bxr-ecommerce-v4-effect .bxr-sale-indicator .bxr-basket-group {
+    margin-bottom: 4px;
+}
+
+.bxr-ecommerce-v4-effect:hover .bxr-sale-indicator 
+, .bxr-ecommerce-v4-effect:hover .bxr-cart-basket-indicator {
+    display: none;
+}
+
+.bxr-ecommerce-v4-effect .bxr-cart-basket-indicator {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.bxr-ecommerce-v4-effect .bxr-cart-basket-indicator .bxr-indicator-item-basket {
+    display: none;
+}
+
+.bxr-ecommerce-v4-effect .bxr-cart-basket-indicator .bxr-indicator-item-basket.bxr-indicator-item-active {
+    display: block;
+}
+
+.bxr-ecommerce-v4-effect .bxr-element-name table.bxr-element-props-table {
+    width: 100%;
+    font-size: 11px;
+    margin-top: 5px;
+    word-break: break-all;
+}
+.bxr-ecommerce-v4-effect .bxr-element-name table.bxr-element-props-table td.bxr-props-table-name,
+.bxr-ecommerce-v4-effect .bxr-element-name table.bxr-element-props-table td.bxr-props-table-value {
+    padding: 5px;
+}
+.bxr-ecommerce-v4-effect .bxr-element-name table.bxr-element-props-table td.bxr-props-table-name{
+    text-align: left;
+    padding-left: 0;
+}
+.bxr-ecommerce-v4-effect .bxr-element-name table.bxr-element-props-table td.bxr-props-table-value{
+    text-align: right;
+    padding-right: 0;
+}

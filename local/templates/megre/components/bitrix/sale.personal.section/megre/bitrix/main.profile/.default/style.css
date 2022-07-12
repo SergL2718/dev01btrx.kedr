@@ -1,0 +1,92 @@
+.bx_profile .main-profile-block-date-info {
+    margin-bottom: 15px;
+    background: #faf9f9;
+    border: 1px solid #efefef;
+    border-radius: 4px;
+    padding: 10px 16px 8px 16px;
+    margin-bottom: 30px;
+}
+
+.bx_profile .main-profile-form-password-annotation{
+    font-family: Arial, Helvetica,sans-serif;
+    color: grey;
+    font-weight: lighter;
+    font-size: 12px;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.bx_profile .main-profile-block-date-info, .bx_profile .form-group{
+    overflow-y: hidden;
+    margin-bottom: 20px;
+}
+
+.bx_profile .main-profile-block-date-info .small {
+    margin-bottom: 2px;
+}
+
+@media (min-width: 992px)
+{
+    .text-md-right{
+        text-align: right;
+    }
+
+    .form-group{
+        display: table;
+        width: 100%;
+    }
+
+    .main-profile-form-label.text-md-right, input[class*="col-"] {
+        float: none !important;
+        display: table-cell;
+        vertical-align: middle;
+    }
+}
+
+.main-profile-social-block-title {
+    font-weight: bold;
+    font-size: 16px;
+    color: #181818;
+    margin-bottom: 18px;
+}
+
+.bx-auth-serv-icons {
+    margin-top: -8px;
+}
+
+.bx_profile .main-profile-social-block .soc-serv-title-grey{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    color: #5c5c5c;
+    padding-left: 0px;
+}
+
+.bx_profile .form-group .form-control {
+    height: 40px;
+    background: #faf9f9;
+    border: 1px solid #efefef;
+    border-radius: 4px;
+    box-shadow: none;
+}
+
+.bx_profile .form-group .form-control:focus {
+    background: #fff;
+}
+
+.bx_profile {
+    border-top: 1px solid #efefef;
+    padding-top: 20px;
+}
+
+.bx_profile form {
+    margin: 0 0 0 -10px;
+}
+
+.bx_profile .form-group label {
+    font-weight: normal;
+}
+
+.main-profile-form-buttons-block input {
+    border: none;
+    border-radius: 2px;
+}

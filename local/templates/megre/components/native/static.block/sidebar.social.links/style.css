@@ -1,0 +1,86 @@
+/*
+ * Изменено: 06 декабря 2021, понедельник
+ * Автор: Артамонов Денис <software.engineer@internet.ru>
+ * copyright (c) 2021
+ */
+
+.social-links-wrap {
+	display: flex;
+	flex-direction: column;
+}
+
+.sidebar-social-links {
+	display   : flex;
+	flex-wrap : wrap;
+	max-width : 269px;
+	gap: 20px;
+}
+
+.sidebar-social-links a {
+	align-items        : center;
+	border-bottom      : none !important;
+	border-radius      : 17px;
+	display            : inline-flex;
+	height             : 73px;
+	justify-content    : center;
+	text-decoration    : none !important;
+	transition         : opacity .17s;
+	width              : 73px;
+}
+
+.sidebar-social-links a:before {
+	display: none!important;
+}
+
+.sidebar-social-links a[title="Facebook"] {
+	background-color : #4590d6;
+}
+
+.sidebar-social-links a[title="Telegram"] {
+	background-color : #5dbde7;
+}
+
+.sidebar-social-links a[title="YouTube"] {
+	background-color : #cd5151;
+}
+
+.sidebar-social-links a[title="Вконтакте"] {
+	background-color : #6396b6;
+}
+
+.sidebar-social-links a[title="Instagram"] {
+	background-color : #e187a8;
+}
+
+.sidebar-social-links a[title="Одноклассники"] {
+	background-color : #f2bf74;
+}
+
+.sidebar-social-links a:hover {
+	opacity : .8;
+}
+
+@media (max-width: 767px) {
+	.sidebar-social-links {
+		max-width: initial;
+		gap: 10px;
+		justify-content: space-between;
+	}
+
+	.sidebar-social-links a {
+		width: 45px;
+		height: 45px;
+		border-radius: 50%;
+	}
+
+	.sidebar-social-links svg {
+		width: 25px;
+		height: 25px;
+	}
+}
+
+@media (max-width: 999px) {
+	.sidebar-social-links {
+		max-width: initial;
+	}
+}

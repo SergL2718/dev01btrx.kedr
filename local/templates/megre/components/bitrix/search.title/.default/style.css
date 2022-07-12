@@ -1,0 +1,126 @@
+/*
+ * Изменено: 16 декабря 2021, четверг
+ * Автор: Артамонов Денис <software.engineer@internet.ru>
+ * copyright (c) 2021
+ */
+
+.search-wrapper {
+	background-color : #fff;
+	border-bottom    : 1px solid #b19e86;
+	display          : none;
+	left             : 0;
+	position         : absolute;
+	right            : 0;
+	top              : 0;
+	z-index          : 2;
+}
+
+.search-content {
+	align-items     : center;
+	display         : flex;
+	justify-content : space-between;
+}
+
+.search-content form {
+	width : 100%;
+}
+
+.search-content input {
+	-webkit-appearance : none;
+	border             : none;
+	box-shadow         : none;
+	font               : inherit;
+	line-height        : 1;
+	outline            : none;
+	padding            : 17px 10px 16px 0;
+	width              : 100%;
+}
+
+.search-content input:focus {
+	-webkit-appearance : none;
+	border             : none;
+	box-shadow         : none;
+	outline            : none;
+}
+
+.search-close {
+	cursor      : pointer;
+	display     : flex;
+	line-height : 1;
+	padding     : 12.5px 10px;
+}
+
+.search-close span {
+	align-items     : center;
+	border-radius   : 3px;
+	display         : flex;
+	height          : 25px;
+	justify-content : center;
+	line-height     : 1;
+	padding         : 2px;
+	transition      : background-color .27s ease-out;
+	width           : 25px;
+}
+
+.search-close:hover span {
+	background-color : #f1f9ea;
+}
+
+.title-search-result {
+	border-bottom : 1px solid #b19e86;
+	display       : none;
+	overflow      : hidden;
+	transform     : translateY(-1px);
+	z-index       : 98;
+}
+
+.title-search-result {
+	background-color : #fff;
+}
+
+.title-search-result-item a {
+	align-items     : center;
+	border-bottom   : 1px solid #b19e86;
+	color           : #898989;
+	display         : flex;
+	padding         : 10px 0;
+	text-decoration : none;
+}
+
+.title-search-result-item-image {
+	align-items     : center;
+	display         : flex;
+	height          : 70px;
+	justify-content : center;
+	margin-right    : 30px;
+	padding         : 5px;
+	width           : 70px;
+}
+
+.title-search-result-item-image img {
+	width : 100%;
+}
+
+.title-search-result-more {
+	color           : #81b751;
+	display         : inline-block;
+	font-family     : "Cera Medium", "Tahoma", "sans-serif";
+	font-size       : 22px;
+	line-height     : 1;
+	margin          : 45px 0;
+	padding-bottom  : 5px;
+	position        : relative;
+	text-decoration : none;
+	text-transform  : uppercase;
+}
+
+.title-search-result-more:after {
+	background-color : #81b751;
+	border-radius    : 5px;
+	content          : "";
+	display          : block;
+	height           : 3px;
+	margin-top       : 5px;
+	position         : absolute;
+	width            : 100%;
+}

@@ -1,0 +1,37 @@
+.bxr-element-employees-v1 {
+    padding: 20px 17px 20px 20px;
+    border: 1px solid #e5e5e5;
+    display: table;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.bxr-element-employees-v1 .bxr-element-image {
+    display: table-cell;
+    width: 155px;
+}
+
+.bxr-element-employees-v1 .bxr-element-content {
+    display: table-cell;
+    position: relative;
+    vertical-align: top;
+}
+
+.bxr-element-employees-v1 .bxr-element-name {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.bxr-element-employees-v1 .bxr-element-employee {
+    padding-bottom: 7px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.bxr-element-employees-v1 .bxr-element-info {
+    position: absolute;
+    bottom: 0px;
+}
+
+.bxr-element-employees-v1 .bxr-element-info span:first-child {
+    margin-right: 5px;
+}

@@ -1,0 +1,10 @@
+/*
+ * Изменено: 18 сентября 2021, суббота
+ * Автор: Артамонов Денис <software.engineer@internet.ru>
+ * copyright (c) 2021
+ */
+
+.slider-wrapper[data-slider-code="viewed-product-list"] .owl-nav .owl-prev,
+.slider-wrapper[data-slider-code="viewed-product-list"] .owl-nav .owl-next {
+	top : 107.5px !important;
+}

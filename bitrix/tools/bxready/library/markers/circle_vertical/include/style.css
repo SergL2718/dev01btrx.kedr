@@ -1,0 +1,60 @@
+.bxr-circle-marker-vertical{
+    position: absolute;
+    width: 50px;
+    top: 15px;
+    left: 10px;
+    z-index: 990;
+}
+
+.bxr-circle-marker-vertical .bxr-marker-new
+,.bxr-circle-marker-vertical .bxr-marker-sale
+,.bxr-circle-marker-vertical .bxr-marker-rec
+,.bxr-circle-marker-vertical .bxr-marker-discount
+,.bxr-circle-marker-vertical .bxr-marker-hit{
+    border: 2px solid #0BA72A;
+    border-radius: 50%;
+    display: block;
+    width: 52px;
+    height: 52px;
+    margin-bottom: -10px;
+    background: #0BA72A;
+}
+
+.bxr-circle-marker-vertical .bxr-marker-hit{
+    background: #FCBD00;
+    border-color: #FCBD00;
+}
+
+.bxr-circle-marker-vertical .bxr-marker-sale
+,.bxr-circle-marker-vertical .bxr-marker-discount{
+    background: #EA1100;
+    border-color: #EA1100;
+}
+
+.bxr-circle-marker-vertical .bxr-marker-new{
+    background: #0F7EDA;
+    border-color: #0F7EDA;
+}
+
+.bxr-circle-marker-vertical i{
+    display: block;
+    width: 48px;
+    height: 48px;
+    line-height: 44px;
+    border: 2px solid #FFF;
+    border-radius: 50%;
+    text-align: center;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: normal;
+    transform: none;
+}
+
+@media (max-width: 992px) {
+    .bxr-ecommerce-v2-list .bxr-circle-marker-vertical,
+    .bxr-ecommerce-v1-list .bxr-circle-marker-vertical{
+        bottom: 15px;
+        top: inherit;
+    }
+}

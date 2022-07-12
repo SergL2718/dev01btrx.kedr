@@ -1,0 +1,74 @@
+/*
+ * @author Артамонов Денис <artamonov.ceo@gmail.com>
+ * @updated 16.08.2020, 16:29
+ * @copyright 2011-2020
+ */
+
+/* Order complete */
+
+.order-complete-message {
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+.order-complete-message-text {
+    position: relative;
+    font-size: 14px;
+    color: #595959;
+    border: 2px solid #3d7341;
+    padding: 17px 24px;
+    border-radius: 10px;
+}
+
+.order-complete-message-text:after {
+    content: '';
+    display: block;
+    width: 28px;
+    height: 19px;
+    background-image: url('./images/corner-right.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: -19px;
+    right: 70px;
+}
+
+.order-complete-message-photo {
+    margin: 18px 25px 10px;
+    text-align: right;
+}
+
+.order-complete-message-photo img {
+    max-width: 50px;
+    transform: scale(-1, 1);
+    border-radius: 50%;
+}
+
+.order-complete-message-photo-description {
+    margin-right: 25px;
+    font-size: 14px;
+    color: #3d7341;
+    text-align: right;
+}
+
+.order-complete-button {
+    text-align: center;
+}
+
+.order-complete-button a {
+    display: inline-block;
+    font-size: 18px;
+    line-height: 1;
+    color: #fff;
+    border-radius: 5px;
+    background-color: var(--color-green);
+    -webkit-transition: all .18s;
+    -moz-transition: all .18s;
+    -o-transition: all .18s;
+    transition: all .18s;
+    padding: 9px 22px;
+}
+
+.order-complete-button a:hover {
+    text-decoration: none;
+    color: #fff;
+}

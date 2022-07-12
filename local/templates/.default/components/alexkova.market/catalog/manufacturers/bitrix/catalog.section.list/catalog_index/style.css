@@ -1,0 +1,25 @@
+.brand-list .brand-cart {
+    float: left;
+    height: 90px;
+    margin-bottom: 20px;
+    display: table-cell;
+}
+
+.brand-list .brand-cart a.brand-image {
+    border: 1px solid #e8e8e8;
+    display: table-cell;
+    height: 90px;
+    width: 190px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.brand-list .brand-cart a.brand-image img {
+    opacity: 0.7;
+    width: 100%;
+    max-width: 150px;
+}
+
+.brand-list .brand-cart a.brand-image:hover img {
+    opacity: 1;
+}

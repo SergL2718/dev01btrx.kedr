@@ -1,0 +1,48 @@
+/*
+ * Изменено: 06 декабря 2021, понедельник
+ * Автор: Артамонов Денис <software.engineer@internet.ru>
+ * copyright (c) 2021
+ */
+
+.footer-social-links {
+	display   : flex;
+	flex-wrap : wrap;
+	max-width : 176px;
+}
+
+.footer-social-links a {
+	align-items        : center;
+	background-color   : #fff;
+	border-bottom      : none !important;
+	border-radius      : 50%;
+	display            : inline-flex;
+	height             : 48px;
+	justify-content    : center;
+	text-decoration    : none !important;
+	-moz-transition    : opacity .17s;
+	-ms-transition     : opacity .17s;
+	-o-transition      : opacity .17s;
+	-webkit-transition : opacity .17s;
+	transition         : opacity .17s;
+	width              : 48px;
+}
+
+.footer-social-links a:nth-child(2) {
+	margin-bottom : 15px;
+}
+
+.footer-social-links a:nth-child(2),
+.footer-social-links a:nth-child(5) {
+	margin-left  : 15px;
+	margin-right : 15px;
+}
+
+.footer-social-links a:hover {
+	opacity : .8;
+}
+
+@media (max-width: 767px) {
+	.footer-social-links {
+		justify-content: center;
+	}
+}
